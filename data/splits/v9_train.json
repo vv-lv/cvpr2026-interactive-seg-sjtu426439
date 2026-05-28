@@ -1,0 +1,4270 @@
+{
+  "version": "v9",
+  "description": "~1050 balanced multi-obj training set (comp:noncomp ~1:1) + 15 autoPET for PET modality coverage",
+  "seed": 42,
+  "n_files": 1065,
+  "n_competitor": 530,
+  "n_non_competitor": 535,
+  "files": [
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0197.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0070.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0098.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0346.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0274.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0089.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0176.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0302.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0013.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0153.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0323.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0225.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0008.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0379.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0351.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0219.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0348.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0138.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0325.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0179.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0378.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0308.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0144.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0408.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0299.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0401.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0009.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0177.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0150.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0402.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0108.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0384.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0247.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0113.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0154.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0330.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0309.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0376.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0049.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0061.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0290.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0128.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0311.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0337.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0006.npz",
+      "dataset": "CT/CT_AMOS"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00518.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00659.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_01054.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00956.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00662.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00704.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00807.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00403.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00689.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00636.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_01019.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00789.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00202.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00486.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00892.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00157.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00332.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00932.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00663.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00516.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00718.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00041.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_01012.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00962.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00522.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00573.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00984.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00734.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00980.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00882.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00797.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00499.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00448.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00896.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00996.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00318.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00476.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00871.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00915.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00077.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00768.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00963.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_01049.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00092.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00667.npz",
+      "dataset": "CT/CT_Abdomen1K"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_COVID19-Infection/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0031.npz",
+      "dataset": "CT/CT_COVID19-Infection"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_COVID19-Infection/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0165.npz",
+      "dataset": "CT/CT_COVID19-Infection"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_COVID19-Infection/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0074_1.npz",
+      "dataset": "CT/CT_COVID19-Infection"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_COVID19-Infection/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0147.npz",
+      "dataset": "CT/CT_COVID19-Infection"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_COVID19-Infection/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0130.npz",
+      "dataset": "CT/CT_COVID19-Infection"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_COVID19-Infection/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0566.npz",
+      "dataset": "CT/CT_COVID19-Infection"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_COVID19-Infection/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0504.npz",
+      "dataset": "CT/CT_COVID19-Infection"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_COVID19-Infection/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0437.npz",
+      "dataset": "CT/CT_COVID19-Infection"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_COVID19-Infection/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0548.npz",
+      "dataset": "CT/CT_COVID19-Infection"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_COVID19-Infection/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0694.npz",
+      "dataset": "CT/CT_COVID19-Infection"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_COVID19-Infection/CT_COVID19-CT-Seg-Bench_coronacases_010.npz",
+      "dataset": "CT/CT_COVID19-Infection"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_COVID19-Infection/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0179.npz",
+      "dataset": "CT/CT_COVID19-Infection"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_COVID19-Infection/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0255.npz",
+      "dataset": "CT/CT_COVID19-Infection"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_COVID19-Infection/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0106.npz",
+      "dataset": "CT/CT_COVID19-Infection"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_COVID19-Infection/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0462.npz",
+      "dataset": "CT/CT_COVID19-Infection"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_COVID19-Infection/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0599.npz",
+      "dataset": "CT/CT_COVID19-Infection"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_COVID19-Infection/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0553.npz",
+      "dataset": "CT/CT_COVID19-Infection"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_COVID19-Infection/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0657.npz",
+      "dataset": "CT/CT_COVID19-Infection"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_COVID19-Infection/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0072.npz",
+      "dataset": "CT/CT_COVID19-Infection"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_COVID19-Infection/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0464.npz",
+      "dataset": "CT/CT_COVID19-Infection"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_002894_01_02_052-080.npz",
+      "dataset": "CT/CT_DeepLesion"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_003195_01_03_048-080.npz",
+      "dataset": "CT/CT_DeepLesion"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_001701_10_01_001-016.npz",
+      "dataset": "CT/CT_DeepLesion"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_001592_01_02_044-074.npz",
+      "dataset": "CT/CT_DeepLesion"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_000083_11_01_012-035.npz",
+      "dataset": "CT/CT_DeepLesion"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_000460_03_01_065-095.npz",
+      "dataset": "CT/CT_DeepLesion"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_000204_07_01_040-062.npz",
+      "dataset": "CT/CT_DeepLesion"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_000253_01_01_029-053.npz",
+      "dataset": "CT/CT_DeepLesion"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_000515_01_01_026-055.npz",
+      "dataset": "CT/CT_DeepLesion"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_003023_06_03_070-171.npz",
+      "dataset": "CT/CT_DeepLesion"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_000900_06_02_129-272.npz",
+      "dataset": "CT/CT_DeepLesion"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_001717_01_01_038-079.npz",
+      "dataset": "CT/CT_DeepLesion"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_001110_01_01_040-079.npz",
+      "dataset": "CT/CT_DeepLesion"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_000569_11_01_005-026.npz",
+      "dataset": "CT/CT_DeepLesion"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_001759_08_01_043-077.npz",
+      "dataset": "CT/CT_DeepLesion"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_003864_01_01_039-065.npz",
+      "dataset": "CT/CT_DeepLesion"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_000316_04_01_044-074.npz",
+      "dataset": "CT/CT_DeepLesion"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_000223_09_01_023-047.npz",
+      "dataset": "CT/CT_DeepLesion"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_000237_02_01_104-123.npz",
+      "dataset": "CT/CT_DeepLesion"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_003306_04_03_015-127.npz",
+      "dataset": "CT/CT_DeepLesion"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_000800_10_01_025-063.npz",
+      "dataset": "CT/CT_DeepLesion"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_002544_01_01_008-041.npz",
+      "dataset": "CT/CT_DeepLesion"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_000132_03_02_039-064.npz",
+      "dataset": "CT/CT_DeepLesion"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_002115_01_01_057-091.npz",
+      "dataset": "CT/CT_DeepLesion"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_004348_01_01_043-059.npz",
+      "dataset": "CT/CT_DeepLesion"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LiverTumor/CT_AbdTumorWAWTACELesionPortal_0394.npz",
+      "dataset": "CT/CT_LiverTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LiverTumor/CT_AbdTumor_liver_35.npz",
+      "dataset": "CT/CT_LiverTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LiverTumor/CT_AbdTumorWAWTACELesionArterial_0007.npz",
+      "dataset": "CT/CT_LiverTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LiverTumor/CT_AbdTumor_hepaticvessel_300.npz",
+      "dataset": "CT/CT_LiverTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LiverTumor/CT_AbdTumor_hepaticvessel_057.npz",
+      "dataset": "CT/CT_LiverTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LiverTumor/CT_AbdTumor_liver_85.npz",
+      "dataset": "CT/CT_LiverTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LiverTumor/CT_AbdTumorWAWTACELesionPortal_0491.npz",
+      "dataset": "CT/CT_LiverTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LiverTumor/CT_AbdTumor_hepaticvessel_141.npz",
+      "dataset": "CT/CT_LiverTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LiverTumor/CT_AbdTumor_liver_128.npz",
+      "dataset": "CT/CT_LiverTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LiverTumor/CT_AbdTumorWAWTACELesionPortal_0197.npz",
+      "dataset": "CT/CT_LiverTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LiverTumor/CT_AbdTumor_hepaticvessel_071.npz",
+      "dataset": "CT/CT_LiverTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LiverTumor/CT_AbdTumor_hepaticvessel_375.npz",
+      "dataset": "CT/CT_LiverTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LiverTumor/CT_AbdTumorWAWTACELesionArterial_0094.npz",
+      "dataset": "CT/CT_LiverTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LiverTumor/CT_AbdTumor_hepaticvessel_391.npz",
+      "dataset": "CT/CT_LiverTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LiverTumor/CT_AbdTumor_hepaticvessel_400.npz",
+      "dataset": "CT/CT_LiverTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LiverTumor/CT_AbdTumor_liver_17.npz",
+      "dataset": "CT/CT_LiverTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LiverTumor/CT_AbdTumorWAWTACELesionPortal_0487.npz",
+      "dataset": "CT/CT_LiverTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LiverTumor/CT_AbdTumor_liver_99.npz",
+      "dataset": "CT/CT_LiverTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LiverTumor/CT_AbdTumorWAWTACELesionArterial_0083.npz",
+      "dataset": "CT/CT_LiverTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LiverTumor/CT_AbdTumor_liver_27.npz",
+      "dataset": "CT/CT_LiverTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LiverTumor/CT_AbdTumor_hepaticvessel_308.npz",
+      "dataset": "CT/CT_LiverTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LiverTumor/CT_AbdTumorWAWTACELesionArterial_0319.npz",
+      "dataset": "CT/CT_LiverTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LiverTumor/CT_AbdTumor_hepaticvessel_280.npz",
+      "dataset": "CT/CT_LiverTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LiverTumor/CT_AbdTumor_liver_66.npz",
+      "dataset": "CT/CT_LiverTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LiverTumor/CT_AbdTumor_liver_51.npz",
+      "dataset": "CT/CT_LiverTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LymphNode/CT_LNQ_LymphNode-1096.npz",
+      "dataset": "CT/CT_LymphNode"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LymphNode/CT_LNQ_LymphNode-0334.npz",
+      "dataset": "CT/CT_LymphNode"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LymphNode/CT_LNQ_LymphNode-0709.npz",
+      "dataset": "CT/CT_LymphNode"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LymphNode/CT_LNQ_LymphNode-0663.npz",
+      "dataset": "CT/CT_LymphNode"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LymphNode/CT_LNQ_LymphNode-0333.npz",
+      "dataset": "CT/CT_LymphNode"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LymphNode/CT_LNQ_LymphNode-0979.npz",
+      "dataset": "CT/CT_LymphNode"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LymphNode/CT_LNQ_LymphNode-0556.npz",
+      "dataset": "CT/CT_LymphNode"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LymphNode/CT_LNQ_LymphNode-0282.npz",
+      "dataset": "CT/CT_LymphNode"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LymphNode/CT_LNQ_LymphNode-0204.npz",
+      "dataset": "CT/CT_LymphNode"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LymphNode/CT_LNQ_LymphNode-0700.npz",
+      "dataset": "CT/CT_LymphNode"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LymphNode/CT_LNQ_LymphNode-0838.npz",
+      "dataset": "CT/CT_LymphNode"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LymphNode/CT_LNQ_LymphNode-0440.npz",
+      "dataset": "CT/CT_LymphNode"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LymphNode/CT_LNQ_LymphNode-0945.npz",
+      "dataset": "CT/CT_LymphNode"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LymphNode/CT_LNQ_LymphNode-0187.npz",
+      "dataset": "CT/CT_LymphNode"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LymphNode/CT_LNQ_LymphNode-1045.npz",
+      "dataset": "CT/CT_LymphNode"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LymphNode/CT_LNQ_LymphNode-0645.npz",
+      "dataset": "CT/CT_LymphNode"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LymphNode/CT_LNQ_LymphNode-0518.npz",
+      "dataset": "CT/CT_LymphNode"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LymphNode/CT_LNQ_LymphNode-0012.npz",
+      "dataset": "CT/CT_LymphNode"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LymphNode/CT_LNQ_LymphNode-0761.npz",
+      "dataset": "CT/CT_LymphNode"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LymphNode/CT_LNQ_LymphNode-0240.npz",
+      "dataset": "CT/CT_LymphNode"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LymphNode/CT_LNQ_LymphNode-1002.npz",
+      "dataset": "CT/CT_LymphNode"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LymphNode/CT_LNQ_LymphNode-0773.npz",
+      "dataset": "CT/CT_LymphNode"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LymphNode/CT_LNQ_LymphNode-1022.npz",
+      "dataset": "CT/CT_LymphNode"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LymphNode/CT_LNQ_LymphNode-1064.npz",
+      "dataset": "CT/CT_LymphNode"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LymphNode/CT_LNQ_LymphNode-0611.npz",
+      "dataset": "CT/CT_LymphNode"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s1233.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0546.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0591.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s1332.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0450.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0111.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0416.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0683.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s1089.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0440.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s1130.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0461.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0355.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0641.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0382.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0034.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0179.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0482.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s1330.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0565.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0694.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0708.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s1016.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0864.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0765.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s1208.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0878.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0663.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0904.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0907.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0551.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0138.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0498.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0747.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0285.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0345.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0692.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0513.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0719.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s1062.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0646.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0014.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s1251.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0163.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0119.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0045.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0636.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0143.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0095.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0945.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s1363.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s1028.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s1289.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0790.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s1228.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s1199.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0934.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s1159.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0600.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0950.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0024.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s1298.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s1143.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s1029.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s1354.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s1187.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s1339.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0705.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0218.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0339.npz",
+      "dataset": "CT/CT_TotalSeg-vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s1250.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s0370.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s0863.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s0105.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s1149.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s1073.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s0714.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s0626.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s0667.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s1130.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s1235.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s0271.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s0724.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s1136.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s1140.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s1121.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s0982.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s1391.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s1206.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s1135.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s0021.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s0702.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s1332.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s1022.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s0102.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s0258.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s0442.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s0003.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s0068.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s1413.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s1134.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s0011.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s0676.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s1035.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s0264.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s0248.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s0266.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s0194.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s1366.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s0357.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s0281.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s1058.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s0112.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s1028.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s0746.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s0000.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s1049.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s0046.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s0279.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s0185.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s1277.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s0483.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s1015.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s0201.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_cardiac/CT_TotalSeg_cardiac_s0366.npz",
+      "dataset": "CT/CT_TotalSeg_cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s1179.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0049.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0598.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0101.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s1238.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s1349.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0240.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0873.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0545.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s1059.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s1358.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s1069.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0332.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0151.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0700.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0986.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0447.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0299.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0287.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0456.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s1332.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0752.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0185.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0340.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0012.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0899.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s1407.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s1205.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s1130.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0088.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0091.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0858.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0749.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0108.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s1256.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0105.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0690.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0536.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0133.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0372.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0523.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0992.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0263.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s1244.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0255.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0780.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s1021.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0831.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0670.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0687.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s1107.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0098.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0395.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0150.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0636.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0440.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0952.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0424.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0031.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0857.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0859.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0628.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0241.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0495.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0747.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s1278.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0647.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0835.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s1063.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0582.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0301.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s1141.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s1071.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s1196.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0346.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0145.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0402.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0933.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0353.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0243.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s1387.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s1414.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0106.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s1413.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0380.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0109.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0643.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0982.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0057.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0252.npz",
+      "dataset": "CT/CT_TotalSeg_muscles"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0826.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s1082.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0517.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0230.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0049.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s1368.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s1206.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0075.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0980.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s1372.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0762.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0994.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0192.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s1155.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0216.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0497.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0343.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s1197.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s1045.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0670.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0107.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0399.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s1362.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0907.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0156.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0974.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0824.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0941.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0860.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s1331.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0606.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0582.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s1299.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0915.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0396.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0129.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s1291.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0614.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s1083.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s1285.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s1032.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s1415.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0485.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0501.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s1353.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s1015.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0508.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0845.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s1329.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0478.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0063.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s1169.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0691.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0928.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0160.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0767.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0445.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s1094.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s1247.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s1373.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s1374.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s1323.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0122.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0908.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0546.npz",
+      "dataset": "CT/CT_TotalSeg_organs"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0266.npz",
+      "dataset": "MRI/MR_BraTS-T1c"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_1259.npz",
+      "dataset": "MRI/MR_BraTS-T1c"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0642.npz",
+      "dataset": "MRI/MR_BraTS-T1c"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0542.npz",
+      "dataset": "MRI/MR_BraTS-T1c"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_1173.npz",
+      "dataset": "MRI/MR_BraTS-T1c"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0766.npz",
+      "dataset": "MRI/MR_BraTS-T1c"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_1026.npz",
+      "dataset": "MRI/MR_BraTS-T1c"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0452.npz",
+      "dataset": "MRI/MR_BraTS-T1c"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0574.npz",
+      "dataset": "MRI/MR_BraTS-T1c"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0976.npz",
+      "dataset": "MRI/MR_BraTS-T1c"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0678.npz",
+      "dataset": "MRI/MR_BraTS-T1c"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_1110.npz",
+      "dataset": "MRI/MR_BraTS-T1c"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0164.npz",
+      "dataset": "MRI/MR_BraTS-T1c"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0358.npz",
+      "dataset": "MRI/MR_BraTS-T1c"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0531.npz",
+      "dataset": "MRI/MR_BraTS-T1c"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0718.npz",
+      "dataset": "MRI/MR_BraTS-T1c"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_1003.npz",
+      "dataset": "MRI/MR_BraTS-T1c"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0581.npz",
+      "dataset": "MRI/MR_BraTS-T1c"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0033.npz",
+      "dataset": "MRI/MR_BraTS-T1c"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0487.npz",
+      "dataset": "MRI/MR_BraTS-T1c"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0389.npz",
+      "dataset": "MRI/MR_BraTS-T1c"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_1006.npz",
+      "dataset": "MRI/MR_BraTS-T1c"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_1293.npz",
+      "dataset": "MRI/MR_BraTS-T1c"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_1349.npz",
+      "dataset": "MRI/MR_BraTS-T1c"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0967.npz",
+      "dataset": "MRI/MR_BraTS-T1c"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0071.npz",
+      "dataset": "MRI/MR_BraTS-T1c"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0676.npz",
+      "dataset": "MRI/MR_BraTS-T1c"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0888.npz",
+      "dataset": "MRI/MR_BraTS-T1c"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0532.npz",
+      "dataset": "MRI/MR_BraTS-T1c"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_1134.npz",
+      "dataset": "MRI/MR_BraTS-T1c"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0472.npz",
+      "dataset": "MRI/MR_BraTS-T1n"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0536.npz",
+      "dataset": "MRI/MR_BraTS-T1n"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0710.npz",
+      "dataset": "MRI/MR_BraTS-T1n"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0652.npz",
+      "dataset": "MRI/MR_BraTS-T1n"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0447.npz",
+      "dataset": "MRI/MR_BraTS-T1n"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0083.npz",
+      "dataset": "MRI/MR_BraTS-T1n"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0089.npz",
+      "dataset": "MRI/MR_BraTS-T1n"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0553.npz",
+      "dataset": "MRI/MR_BraTS-T1n"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0126.npz",
+      "dataset": "MRI/MR_BraTS-T1n"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0858.npz",
+      "dataset": "MRI/MR_BraTS-T1n"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0298.npz",
+      "dataset": "MRI/MR_BraTS-T1n"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0756.npz",
+      "dataset": "MRI/MR_BraTS-T1n"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0626.npz",
+      "dataset": "MRI/MR_BraTS-T1n"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_1333.npz",
+      "dataset": "MRI/MR_BraTS-T1n"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0649.npz",
+      "dataset": "MRI/MR_BraTS-T1n"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_1222.npz",
+      "dataset": "MRI/MR_BraTS-T1n"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_1269.npz",
+      "dataset": "MRI/MR_BraTS-T1n"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0839.npz",
+      "dataset": "MRI/MR_BraTS-T1n"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_1123.npz",
+      "dataset": "MRI/MR_BraTS-T1n"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0863.npz",
+      "dataset": "MRI/MR_BraTS-T1n"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0383.npz",
+      "dataset": "MRI/MR_BraTS-T1n"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0105.npz",
+      "dataset": "MRI/MR_BraTS-T1n"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0638.npz",
+      "dataset": "MRI/MR_BraTS-T1n"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0932.npz",
+      "dataset": "MRI/MR_BraTS-T1n"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0632.npz",
+      "dataset": "MRI/MR_BraTS-T1n"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_1088.npz",
+      "dataset": "MRI/MR_BraTS-T1n"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0995.npz",
+      "dataset": "MRI/MR_BraTS-T1n"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0057.npz",
+      "dataset": "MRI/MR_BraTS-T1n"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0360.npz",
+      "dataset": "MRI/MR_BraTS-T1n"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0107.npz",
+      "dataset": "MRI/MR_BraTS-T1n"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0499.npz",
+      "dataset": "MRI/MR_BraTS-T2f"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0491.npz",
+      "dataset": "MRI/MR_BraTS-T2f"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0929.npz",
+      "dataset": "MRI/MR_BraTS-T2f"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0583.npz",
+      "dataset": "MRI/MR_BraTS-T2f"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0348.npz",
+      "dataset": "MRI/MR_BraTS-T2f"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0737.npz",
+      "dataset": "MRI/MR_BraTS-T2f"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0474.npz",
+      "dataset": "MRI/MR_BraTS-T2f"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_1028.npz",
+      "dataset": "MRI/MR_BraTS-T2f"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_1192.npz",
+      "dataset": "MRI/MR_BraTS-T2f"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0940.npz",
+      "dataset": "MRI/MR_BraTS-T2f"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0574.npz",
+      "dataset": "MRI/MR_BraTS-T2f"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0551.npz",
+      "dataset": "MRI/MR_BraTS-T2f"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0482.npz",
+      "dataset": "MRI/MR_BraTS-T2f"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0905.npz",
+      "dataset": "MRI/MR_BraTS-T2f"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0193.npz",
+      "dataset": "MRI/MR_BraTS-T2f"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0167.npz",
+      "dataset": "MRI/MR_BraTS-T2f"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0419.npz",
+      "dataset": "MRI/MR_BraTS-T2f"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_1279.npz",
+      "dataset": "MRI/MR_BraTS-T2f"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_1142.npz",
+      "dataset": "MRI/MR_BraTS-T2f"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0545.npz",
+      "dataset": "MRI/MR_BraTS-T2f"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0790.npz",
+      "dataset": "MRI/MR_BraTS-T2f"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0067.npz",
+      "dataset": "MRI/MR_BraTS-T2f"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0507.npz",
+      "dataset": "MRI/MR_BraTS-T2f"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0805.npz",
+      "dataset": "MRI/MR_BraTS-T2f"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0152.npz",
+      "dataset": "MRI/MR_BraTS-T2f"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0268.npz",
+      "dataset": "MRI/MR_BraTS-T2f"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0187.npz",
+      "dataset": "MRI/MR_BraTS-T2f"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0691.npz",
+      "dataset": "MRI/MR_BraTS-T2f"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_1035.npz",
+      "dataset": "MRI/MR_BraTS-T2f"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0896.npz",
+      "dataset": "MRI/MR_BraTS-T2f"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0014.npz",
+      "dataset": "MRI/MR_BraTS-T2w"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0192.npz",
+      "dataset": "MRI/MR_BraTS-T2w"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0439.npz",
+      "dataset": "MRI/MR_BraTS-T2w"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0580.npz",
+      "dataset": "MRI/MR_BraTS-T2w"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0365.npz",
+      "dataset": "MRI/MR_BraTS-T2w"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0697.npz",
+      "dataset": "MRI/MR_BraTS-T2w"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_1068.npz",
+      "dataset": "MRI/MR_BraTS-T2w"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_1191.npz",
+      "dataset": "MRI/MR_BraTS-T2w"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0103.npz",
+      "dataset": "MRI/MR_BraTS-T2w"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0028.npz",
+      "dataset": "MRI/MR_BraTS-T2w"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0349.npz",
+      "dataset": "MRI/MR_BraTS-T2w"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0016.npz",
+      "dataset": "MRI/MR_BraTS-T2w"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0949.npz",
+      "dataset": "MRI/MR_BraTS-T2w"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0474.npz",
+      "dataset": "MRI/MR_BraTS-T2w"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0069.npz",
+      "dataset": "MRI/MR_BraTS-T2w"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0905.npz",
+      "dataset": "MRI/MR_BraTS-T2w"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0411.npz",
+      "dataset": "MRI/MR_BraTS-T2w"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0195.npz",
+      "dataset": "MRI/MR_BraTS-T2w"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_1192.npz",
+      "dataset": "MRI/MR_BraTS-T2w"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_1322.npz",
+      "dataset": "MRI/MR_BraTS-T2w"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0051.npz",
+      "dataset": "MRI/MR_BraTS-T2w"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_1232.npz",
+      "dataset": "MRI/MR_BraTS-T2w"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_1038.npz",
+      "dataset": "MRI/MR_BraTS-T2w"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0946.npz",
+      "dataset": "MRI/MR_BraTS-T2w"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_1335.npz",
+      "dataset": "MRI/MR_BraTS-T2w"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0221.npz",
+      "dataset": "MRI/MR_BraTS-T2w"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0268.npz",
+      "dataset": "MRI/MR_BraTS-T2w"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0417.npz",
+      "dataset": "MRI/MR_BraTS-T2w"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_1009.npz",
+      "dataset": "MRI/MR_BraTS-T2w"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0586.npz",
+      "dataset": "MRI/MR_BraTS-T2w"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_HNTS-MRG_HeadTumor/MR_Head_HNTSMRG24_34_preRT_T2.npz",
+      "dataset": "MRI/MR_HNTS-MRG_HeadTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_HNTS-MRG_HeadTumor/MR_Head_HNTSMRG24_194_preRT_T2.npz",
+      "dataset": "MRI/MR_HNTS-MRG_HeadTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_HNTS-MRG_HeadTumor/MR_Head_HNTSMRG24_53_preRT_T2.npz",
+      "dataset": "MRI/MR_HNTS-MRG_HeadTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_HNTS-MRG_HeadTumor/MR_Head_HNTSMRG24_84_preRT_T2.npz",
+      "dataset": "MRI/MR_HNTS-MRG_HeadTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_HNTS-MRG_HeadTumor/MR_Head_HNTSMRG24_184_midRT_T2.npz",
+      "dataset": "MRI/MR_HNTS-MRG_HeadTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_HNTS-MRG_HeadTumor/MR_Head_HNTSMRG24_71_preRT_T2.npz",
+      "dataset": "MRI/MR_HNTS-MRG_HeadTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_HNTS-MRG_HeadTumor/MR_Head_HNTSMRG24_108_preRT_T2.npz",
+      "dataset": "MRI/MR_HNTS-MRG_HeadTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_HNTS-MRG_HeadTumor/MR_Head_HNTSMRG24_108_midRT_T2.npz",
+      "dataset": "MRI/MR_HNTS-MRG_HeadTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_HNTS-MRG_HeadTumor/MR_Head_HNTSMRG24_157_preRT_T2.npz",
+      "dataset": "MRI/MR_HNTS-MRG_HeadTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_HNTS-MRG_HeadTumor/MR_Head_HNTSMRG24_163_midRT_T2.npz",
+      "dataset": "MRI/MR_HNTS-MRG_HeadTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_HNTS-MRG_HeadTumor/MR_Head_HNTSMRG24_17_preRT_T2.npz",
+      "dataset": "MRI/MR_HNTS-MRG_HeadTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_HNTS-MRG_HeadTumor/MR_Head_HNTSMRG24_150_midRT_T2.npz",
+      "dataset": "MRI/MR_HNTS-MRG_HeadTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_HNTS-MRG_HeadTumor/MR_Head_HNTSMRG24_49_preRT_T2.npz",
+      "dataset": "MRI/MR_HNTS-MRG_HeadTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_HNTS-MRG_HeadTumor/MR_Head_HNTSMRG24_145_midRT_T2.npz",
+      "dataset": "MRI/MR_HNTS-MRG_HeadTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_HNTS-MRG_HeadTumor/MR_Head_HNTSMRG24_84_midRT_T2.npz",
+      "dataset": "MRI/MR_HNTS-MRG_HeadTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_HNTS-MRG_HeadTumor/MR_Head_HNTSMRG24_39_midRT_T2.npz",
+      "dataset": "MRI/MR_HNTS-MRG_HeadTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_HNTS-MRG_HeadTumor/MR_Head_HNTSMRG24_150_preRT_T2.npz",
+      "dataset": "MRI/MR_HNTS-MRG_HeadTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_HNTS-MRG_HeadTumor/MR_Head_HNTSMRG24_33_preRT_T2.npz",
+      "dataset": "MRI/MR_HNTS-MRG_HeadTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_HNTS-MRG_HeadTumor/MR_Head_HNTSMRG24_37_midRT_T2.npz",
+      "dataset": "MRI/MR_HNTS-MRG_HeadTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_HNTS-MRG_HeadTumor/MR_Head_HNTSMRG24_66_preRT_T2.npz",
+      "dataset": "MRI/MR_HNTS-MRG_HeadTumor"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient031_frame10.npz",
+      "dataset": "MRI/MR_Heart_ACDC"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient130_frame11.npz",
+      "dataset": "MRI/MR_Heart_ACDC"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient080_frame10.npz",
+      "dataset": "MRI/MR_Heart_ACDC"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient089_frame01.npz",
+      "dataset": "MRI/MR_Heart_ACDC"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient106_frame01.npz",
+      "dataset": "MRI/MR_Heart_ACDC"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient134_frame01.npz",
+      "dataset": "MRI/MR_Heart_ACDC"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient053_frame01.npz",
+      "dataset": "MRI/MR_Heart_ACDC"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient058_frame14.npz",
+      "dataset": "MRI/MR_Heart_ACDC"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient009_frame01.npz",
+      "dataset": "MRI/MR_Heart_ACDC"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient116_frame09.npz",
+      "dataset": "MRI/MR_Heart_ACDC"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient020_frame01.npz",
+      "dataset": "MRI/MR_Heart_ACDC"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient082_frame01.npz",
+      "dataset": "MRI/MR_Heart_ACDC"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient129_frame08.npz",
+      "dataset": "MRI/MR_Heart_ACDC"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient074_frame12.npz",
+      "dataset": "MRI/MR_Heart_ACDC"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient052_frame01.npz",
+      "dataset": "MRI/MR_Heart_ACDC"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient073_frame01.npz",
+      "dataset": "MRI/MR_Heart_ACDC"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient037_frame01.npz",
+      "dataset": "MRI/MR_Heart_ACDC"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient147_frame01.npz",
+      "dataset": "MRI/MR_Heart_ACDC"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient072_frame01.npz",
+      "dataset": "MRI/MR_Heart_ACDC"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient024_frame09.npz",
+      "dataset": "MRI/MR_Heart_ACDC"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient067_frame10.npz",
+      "dataset": "MRI/MR_Heart_ACDC"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient067_frame01.npz",
+      "dataset": "MRI/MR_Heart_ACDC"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient060_frame14.npz",
+      "dataset": "MRI/MR_Heart_ACDC"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient133_frame01.npz",
+      "dataset": "MRI/MR_Heart_ACDC"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient073_frame10.npz",
+      "dataset": "MRI/MR_Heart_ACDC"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0153.npz",
+      "dataset": "MRI/MR_ISLES_DWI"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0143.npz",
+      "dataset": "MRI/MR_ISLES_DWI"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0095.npz",
+      "dataset": "MRI/MR_ISLES_DWI"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0028.npz",
+      "dataset": "MRI/MR_ISLES_DWI"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0183.npz",
+      "dataset": "MRI/MR_ISLES_DWI"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0022.npz",
+      "dataset": "MRI/MR_ISLES_DWI"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0145.npz",
+      "dataset": "MRI/MR_ISLES_DWI"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0005.npz",
+      "dataset": "MRI/MR_ISLES_DWI"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0179.npz",
+      "dataset": "MRI/MR_ISLES_DWI"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0248.npz",
+      "dataset": "MRI/MR_ISLES_DWI"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0217.npz",
+      "dataset": "MRI/MR_ISLES_DWI"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0220.npz",
+      "dataset": "MRI/MR_ISLES_DWI"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0140.npz",
+      "dataset": "MRI/MR_ISLES_DWI"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0250.npz",
+      "dataset": "MRI/MR_ISLES_DWI"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0201.npz",
+      "dataset": "MRI/MR_ISLES_DWI"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0009.npz",
+      "dataset": "MRI/MR_ISLES_DWI"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0050.npz",
+      "dataset": "MRI/MR_ISLES_DWI"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0171.npz",
+      "dataset": "MRI/MR_ISLES_DWI"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0092.npz",
+      "dataset": "MRI/MR_ISLES_DWI"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0219.npz",
+      "dataset": "MRI/MR_ISLES_DWI"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_256_t1_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_138_t1_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_118_t2_SPACE_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_201_t2_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_129_t2_SPACE_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_234_t1_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_82_t2_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_208_t2_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_219_t1_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_185_t2_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_190_t1_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_140_t1_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_45_t2_SPACE_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_152_t2_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_207_t1_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_93_t1_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_242_t1_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_236_t1_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_44_t1_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_232_t2_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_185_t2_SPACE_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_97_t2_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_181_t2_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_87_t1_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_65_t2_SPACE_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_245_t1_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_100_t1_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_254_t2_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_91_t2_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_68_t1_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_249_t1_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_52_t2_SPACE_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_156_t1_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_222_t1_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_116_t2_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_237_t2_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_151_t2_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_236_t2_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_62_t1_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_69_t2_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_18_t2_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_232_t1_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_191_t2_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_74_t2_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_4_t1_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_177_t2_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_3_t1_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_162_t2_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_1_t2_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_56_t2_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_167_t1_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_1_t1_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_104_t1_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_227_t2_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_144_t1_ivd.npz",
+      "dataset": "MRI/MR_Spider_IVD"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_239_t1_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_109_t2_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_141_t2_SPACE_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_146_t2_SPACE_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_207_t1_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_96_t1_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_198_t1_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_220_t2_SPACE_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_154_t1_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_113_t1_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_94_t2_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_192_t2_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_185_t1_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_130_t1_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_245_t2_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_187_t1_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_112_t2_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_15_t1_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_156_t1_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_146_t1_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_226_t2_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_130_t2_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_69_t2_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_88_t2_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_47_t2_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_228_t1_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_2_t2_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_134_t2_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_1_t1_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_155_t2_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_17_t2_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_22_t1_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_30_t2_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_87_t2_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_253_t1_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_67_t1_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_85_t1_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_219_t1_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_205_t2_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_34_t2_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_112_t1_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_227_t2_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_242_t2_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_196_t1_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_234_t1_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_143_t2_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_19_t2_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_207_t2_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_186_t2_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_118_t1_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_115_t1_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_220_t1_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_116_t2_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_171_t1_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_227_t1_vet.npz",
+      "dataset": "MRI/MR_Spider_Vertebrae"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_etz_1_ceT1.npz",
+      "dataset": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_etz_57_ceT1.npz",
+      "dataset": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_etz_75_ceT1.npz",
+      "dataset": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_etz_72_ceT1.npz",
+      "dataset": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_ukm_38_ceT1.npz",
+      "dataset": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_etz_82_ceT1.npz",
+      "dataset": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_etz_69_ceT1.npz",
+      "dataset": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_ukm_12_ceT1.npz",
+      "dataset": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_ukm_39_ceT1.npz",
+      "dataset": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_etz_25_ceT1.npz",
+      "dataset": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_etz_5_ceT1.npz",
+      "dataset": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_etz_49_ceT1.npz",
+      "dataset": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_ukm_2_ceT1.npz",
+      "dataset": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_etz_16_ceT1.npz",
+      "dataset": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_etz_11_ceT1.npz",
+      "dataset": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_etz_40_ceT1.npz",
+      "dataset": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_ldn_61_ceT1.npz",
+      "dataset": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_ukm_23_ceT1.npz",
+      "dataset": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_ldn_19_ceT1.npz",
+      "dataset": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_etz_4_ceT1.npz",
+      "dataset": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_ldn_57_ceT1.npz",
+      "dataset": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_ukm_18_ceT1.npz",
+      "dataset": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_ldn_72_ceT1.npz",
+      "dataset": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_ldn_40_ceT1.npz",
+      "dataset": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_etz_12_ceT1.npz",
+      "dataset": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_etz_102_ceT1.npz",
+      "dataset": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_etz_15_ceT1.npz",
+      "dataset": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_etz_80_ceT1.npz",
+      "dataset": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_ldn_12_ceT1.npz",
+      "dataset": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_ldn_33_ceT1.npz",
+      "dataset": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0133.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0254.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0255.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0257.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0041.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0296.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0272.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0146.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0181.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0139.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0199.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0290.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0082.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0008.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0067.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0045.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0043.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0095.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0070.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0096.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0127.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0245.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0251.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0106.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0177.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0061.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0263.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0022.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0100.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0286.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0265.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0276.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0237.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0174.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0268.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0054.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0038.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0261.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0056.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0057.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0178.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0197.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0242.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0248.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0066.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0160.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0086.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0203.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0158.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_TotalSeg/MR_totalseg_mr_s0151.npz",
+      "dataset": "MRI/MR_TotalSeg"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Amsterdam_GE3T_138.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Singapore_60.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Singapore_73.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Singapore_81.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Amsterdam_GE1T5_157.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Singapore_54.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Utrecht_45.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Amsterdam_GE3T_109.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Amsterdam_GE3T_145.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Amsterdam_GE3T_133.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Utrecht_29.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Amsterdam_GE3T_144.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Singapore_86.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Utrecht_25.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Singapore_67.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Amsterdam_GE3T_130.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Singapore_84.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Utrecht_14.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Utrecht_21.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Amsterdam_GE3T_118.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Utrecht_7.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Amsterdam_Philips_VU_PETMR_01_162.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Amsterdam_GE3T_131.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Amsterdam_GE3T_146.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Utrecht_22.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Singapore_99.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Utrecht_1.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Amsterdam_Philips_VU_PETMR_01_164.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Utrecht_5.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Singapore_89.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Utrecht_0.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Utrecht_38.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Utrecht_6.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Singapore_77.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Singapore_71.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Utrecht_46.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Amsterdam_GE3T_117.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Singapore_91.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Utrecht_35.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Amsterdam_Philips_VU_PETMR_01_163.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Singapore_72.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Utrecht_13.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Singapore_97.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Amsterdam_GE3T_125.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Utrecht_26.npz",
+      "dataset": "MRI/MR_WMH_FLAIR"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Singapore_73.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Amsterdam_GE3T_122.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Amsterdam_GE3T_124.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Amsterdam_GE1T5_150.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Utrecht_16.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Amsterdam_GE1T5_152.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Amsterdam_GE1T5_151.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Utrecht_12.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Amsterdam_GE3T_127.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Amsterdam_GE3T_141.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Amsterdam_GE1T5_154.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Utrecht_19.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Amsterdam_GE3T_138.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Singapore_75.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Utrecht_33.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Utrecht_34.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Amsterdam_GE3T_145.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Utrecht_4.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Singapore_80.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Amsterdam_GE1T5_157.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Utrecht_27.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Amsterdam_Philips_VU_PETMR_01_163.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Utrecht_8.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Utrecht_26.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Utrecht_9.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Utrecht_15.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Singapore_76.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Singapore_93.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Singapore_72.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Amsterdam_GE3T_149.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Amsterdam_GE3T_118.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Amsterdam_GE3T_104.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Utrecht_0.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Amsterdam_GE3T_116.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Utrecht_46.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Utrecht_20.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Singapore_50.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Amsterdam_GE3T_139.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Amsterdam_GE3T_120.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Amsterdam_Philips_VU_PETMR_01_161.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Utrecht_14.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Singapore_56.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Amsterdam_GE3T_119.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Singapore_62.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Amsterdam_GE3T_126.npz",
+      "dataset": "MRI/MR_WMH_T1"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_ADplaques/Microscopy_SELMA3D_patchvolume_ADplaques_023.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_ADplaques"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_ADplaques/Microscopy_SELMA3D_patchvolume_ADplaques_025.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_ADplaques"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_ADplaques/Microscopy_SELMA3D_patchvolume_ADplaques_006.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_ADplaques"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_ADplaques/Microscopy_SELMA3D_patchvolume_ADplaques_032.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_ADplaques"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_ADplaques/Microscopy_SELMA3D_patchvolume_ADplaques_028.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_ADplaques"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_ADplaques/Microscopy_SELMA3D_patchvolume_ADplaques_013.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_ADplaques"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_ADplaques/Microscopy_SELMA3D_patchvolume_ADplaques_024.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_ADplaques"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_ADplaques/Microscopy_SELMA3D_patchvolume_ADplaques_011.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_ADplaques"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_ADplaques/Microscopy_SELMA3D_patchvolume_ADplaques_002.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_ADplaques"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_ADplaques/Microscopy_SELMA3D_patchvolume_ADplaques_009.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_ADplaques"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_ADplaques/Microscopy_SELMA3D_patchvolume_ADplaques_012.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_ADplaques"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_ADplaques/Microscopy_SELMA3D_patchvolume_ADplaques_027.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_ADplaques"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_ADplaques/Microscopy_SELMA3D_patchvolume_ADplaques_029.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_ADplaques"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_ADplaques/Microscopy_SELMA3D_patchvolume_ADplaques_005.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_ADplaques"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_ADplaques/Microscopy_SELMA3D_patchvolume_ADplaques_004.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_ADplaques"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_ADplaques/Microscopy_SELMA3D_patchvolume_ADplaques_015.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_ADplaques"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_ADplaques/Microscopy_SELMA3D_patchvolume_ADplaques_018.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_ADplaques"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_ADplaques/Microscopy_SELMA3D_patchvolume_ADplaques_026.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_ADplaques"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_ADplaques/Microscopy_SELMA3D_patchvolume_ADplaques_021.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_ADplaques"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_ADplaques/Microscopy_SELMA3D_patchvolume_ADplaques_016.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_ADplaques"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_neural_activity_marker/Microscopy_SELMA3D_patchvolume_cfos_007.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_neural_activity_marker"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_neural_activity_marker/Microscopy_SELMA3D_patchvolume_cfos_002.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_neural_activity_marker"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_neural_activity_marker/Microscopy_SELMA3D_patchvolume_cfos_005.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_neural_activity_marker"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_neural_activity_marker/Microscopy_SELMA3D_patchvolume_cfos_006.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_neural_activity_marker"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_neural_activity_marker/Microscopy_SELMA3D_patchvolume_cfos_018.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_neural_activity_marker"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_neural_activity_marker/Microscopy_SELMA3D_patchvolume_cfos_015.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_neural_activity_marker"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_neural_activity_marker/Microscopy_SELMA3D_patchvolume_cfos_011.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_neural_activity_marker"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_neural_activity_marker/Microscopy_SELMA3D_patchvolume_cfos_017.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_neural_activity_marker"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_neural_activity_marker/Microscopy_SELMA3D_patchvolume_cfos_010.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_neural_activity_marker"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_neural_activity_marker/Microscopy_SELMA3D_patchvolume_cfos_008.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_neural_activity_marker"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_neural_activity_marker/Microscopy_SELMA3D_patchvolume_cfos_013.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_neural_activity_marker"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_neural_activity_marker/Microscopy_SELMA3D_patchvolume_cfos_004.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_neural_activity_marker"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_neural_activity_marker/Microscopy_SELMA3D_patchvolume_cfos_016.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_neural_activity_marker"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_neural_activity_marker/Microscopy_SELMA3D_patchvolume_cfos_014.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_neural_activity_marker"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_neural_activity_marker/Microscopy_SELMA3D_patchvolume_cfos_000.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_neural_activity_marker"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_nuceus/Microscopy_SELMA3D_patchvolume_nuclei_007.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_nuceus"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_nuceus/Microscopy_SELMA3D_patchvolume_nuclei_009.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_nuceus"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_nuceus/Microscopy_SELMA3D_patchvolume_nuclei_011.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_nuceus"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_nuceus/Microscopy_SELMA3D_patchvolume_nuclei_008.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_nuceus"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_nuceus/Microscopy_SELMA3D_patchvolume_nuclei_010.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_nuceus"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_nuceus/Microscopy_SELMA3D_patchvolume_nuclei_003.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_nuceus"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_nuceus/Microscopy_SELMA3D_patchvolume_nuclei_002.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_nuceus"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_nuceus/Microscopy_SELMA3D_patchvolume_nuclei_005.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_nuceus"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_nuceus/Microscopy_SELMA3D_patchvolume_nuclei_006.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_nuceus"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_nuceus/Microscopy_SELMA3D_patchvolume_nuclei_001.npz",
+      "dataset": "Microscopy/Microscopy_SELMA3D_nuceus"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_029_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_026_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_002_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_020_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_045_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_018_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_047_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_036_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_051_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_012_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_011_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_050_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_006_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_004_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_040_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_052_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_000_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_033_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_008_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_042_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_024_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_037_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_021_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_044_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_028_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_032_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_046_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_030_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_007_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_034_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_003_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_035_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_019_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_005_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_043_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_048_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_038_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_014_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_027_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_010_nuclei.npz",
+      "dataset": "Microscopy/Microscopy_nucmm"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0008_2CH_half_sequence.npz",
+      "dataset": "US3D/US_Cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0043_2CH_half_sequence.npz",
+      "dataset": "US3D/US_Cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0102_4CH_half_sequence.npz",
+      "dataset": "US3D/US_Cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0292_4CH_half_sequence.npz",
+      "dataset": "US3D/US_Cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0331_2CH_half_sequence.npz",
+      "dataset": "US3D/US_Cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0232_4CH_half_sequence.npz",
+      "dataset": "US3D/US_Cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0101_4CH_half_sequence.npz",
+      "dataset": "US3D/US_Cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0389_2CH_half_sequence.npz",
+      "dataset": "US3D/US_Cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0176_4CH_half_sequence.npz",
+      "dataset": "US3D/US_Cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0094_2CH_half_sequence.npz",
+      "dataset": "US3D/US_Cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0118_4CH_half_sequence.npz",
+      "dataset": "US3D/US_Cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0348_2CH_half_sequence.npz",
+      "dataset": "US3D/US_Cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0346_2CH_half_sequence.npz",
+      "dataset": "US3D/US_Cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0125_2CH_half_sequence.npz",
+      "dataset": "US3D/US_Cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0015_2CH_half_sequence.npz",
+      "dataset": "US3D/US_Cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0070_4CH_half_sequence.npz",
+      "dataset": "US3D/US_Cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0449_4CH_half_sequence.npz",
+      "dataset": "US3D/US_Cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0257_2CH_half_sequence.npz",
+      "dataset": "US3D/US_Cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0168_4CH_half_sequence.npz",
+      "dataset": "US3D/US_Cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0304_4CH_half_sequence.npz",
+      "dataset": "US3D/US_Cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0046_4CH_half_sequence.npz",
+      "dataset": "US3D/US_Cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0287_2CH_half_sequence.npz",
+      "dataset": "US3D/US_Cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0323_2CH_half_sequence.npz",
+      "dataset": "US3D/US_Cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0049_4CH_half_sequence.npz",
+      "dataset": "US3D/US_Cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0210_2CH_half_sequence.npz",
+      "dataset": "US3D/US_Cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0315_2CH_half_sequence.npz",
+      "dataset": "US3D/US_Cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0195_2CH_half_sequence.npz",
+      "dataset": "US3D/US_Cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0351_2CH_half_sequence.npz",
+      "dataset": "US3D/US_Cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0149_4CH_half_sequence.npz",
+      "dataset": "US3D/US_Cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0500_4CH_half_sequence.npz",
+      "dataset": "US3D/US_Cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0256_4CH_half_sequence.npz",
+      "dataset": "US3D/US_Cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0355_4CH_half_sequence.npz",
+      "dataset": "US3D/US_Cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0335_4CH_half_sequence.npz",
+      "dataset": "US3D/US_Cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0087_2CH_half_sequence.npz",
+      "dataset": "US3D/US_Cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0139_2CH_half_sequence.npz",
+      "dataset": "US3D/US_Cardiac"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/PET/autoPET/PET_autoPET_fdg_ab953a5230_11-03-2003-NA-PET-CT_Ganzkoerper__primaer_mit_KM-96099.npz",
+      "dataset": "PET/autoPET"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/PET/autoPET/PET_autoPET_fdg_7a77b26403_10-20-2000-NA-PET-CT_Ganzkoerper__primaer_mit_KM-54468.npz",
+      "dataset": "PET/autoPET"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/PET/autoPET/PET_autoPET_fdg_ea9302fb0f_08-23-2003-NA-PET-CT_Ganzkoerper__primaer_mit_KM-17015.npz",
+      "dataset": "PET/autoPET"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/PET/autoPET/PET_autoPET_psma_5203bac8a9bfd9e2_2020-06-06.npz",
+      "dataset": "PET/autoPET"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/PET/autoPET/PET_autoPET_fdg_e2834e6f5c_06-14-2002-NA-PET-CT_Ganzkoerper__primaer_mit_KM-51062.npz",
+      "dataset": "PET/autoPET"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/PET/autoPET/PET_autoPET_fdg_b1219c408b_10-04-2002-NA-PET-CT_Ganzkoerper__primaer_mit_KM-34572.npz",
+      "dataset": "PET/autoPET"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/PET/autoPET/PET_autoPET_fdg_37952b7ffb_08-24-2002-NA-PET-CT_Ganzkoerper__primaer_mit_KM-55543.npz",
+      "dataset": "PET/autoPET"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/PET/autoPET/PET_autoPET_fdg_2f7200f771_11-05-2005-NA-PET-CT_Ganzkoerper__primaer_mit_KM-68738.npz",
+      "dataset": "PET/autoPET"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/PET/autoPET/PET_autoPET_psma_709da54824f16bc1_2018-02-19.npz",
+      "dataset": "PET/autoPET"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/PET/autoPET/PET_autoPET_fdg_e9be8ec30f_12-12-2002-NA-PET-CT_Ganzkoerper__primaer_mit_KM-29714.npz",
+      "dataset": "PET/autoPET"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/PET/autoPET/PET_autoPET_psma_b487a97686e64dbf_2019-11-18.npz",
+      "dataset": "PET/autoPET"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/PET/autoPET/PET_autoPET_fdg_08cdb15e0b_11-21-2003-NA-PET-CT_Ganzkoerper__primaer_mit_KM-47234.npz",
+      "dataset": "PET/autoPET"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/PET/autoPET/PET_autoPET_psma_e3c5b97cc53ac899_2017-05-15.npz",
+      "dataset": "PET/autoPET"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/PET/autoPET/PET_autoPET_fdg_bd52fdf529_12-03-2000-NA-PET-CT_Ganzkoerper__primaer_mit_KM-96150.npz",
+      "dataset": "PET/autoPET"
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/PET/autoPET/PET_autoPET_fdg_6a3477cd9a_01-15-2005-NA-PET-CT_Ganzkoerper__primaer_mit_KM-52826.npz",
+      "dataset": "PET/autoPET"
+    }
+  ]
+}

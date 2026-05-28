@@ -1,0 +1,3011 @@
+{
+  "split": "train",
+  "seed": 42,
+  "total": 310,
+  "competitor": 155,
+  "non_competitor": 155,
+  "datasets_used": [
+    "CT/CT_AMOS",
+    "CT/CT_Abdomen1K",
+    "CT/CT_COVID19-Infection",
+    "CT/CT_DeepLesion",
+    "CT/CT_LungLesion",
+    "CT/CT_Lungs",
+    "CT/CT_LymphNode",
+    "CT/CT_TotalSeg-vertebrae",
+    "CT/CT_TotalSeg_muscles",
+    "CT/CT_TotalSeg_organs",
+    "MRI/MR_BraTS-T1c",
+    "MRI/MR_BraTS-T1n",
+    "MRI/MR_BraTS-T2f",
+    "MRI/MR_BraTS-T2w",
+    "MRI/MR_HNTS-MRG_HeadTumor",
+    "MRI/MR_Heart_ACDC",
+    "MRI/MR_ISLES_DWI",
+    "MRI/MR_Spider_IVD",
+    "MRI/MR_Spider_Vertebrae",
+    "MRI/MR_T1c_crossMoDA_Tumor_Cochlea",
+    "MRI/MR_WMH_FLAIR",
+    "MRI/MR_WMH_T1",
+    "Microscopy/Microscopy_MUCIC-HL60",
+    "Microscopy/Microscopy_SELMA3D_vessel",
+    "Microscopy/Microscopy_nucmm",
+    "US3D/US_Cardiac"
+  ],
+  "summary": [
+    {
+      "dataset": "MRI/MR_BraTS-T1c",
+      "role": "competitor",
+      "quota": 20,
+      "pool": 1183,
+      "sampled": 20
+    },
+    {
+      "dataset": "MRI/MR_BraTS-T1n",
+      "role": "competitor",
+      "quota": 15,
+      "pool": 1183,
+      "sampled": 15
+    },
+    {
+      "dataset": "MRI/MR_BraTS-T2f",
+      "role": "competitor",
+      "quota": 15,
+      "pool": 1183,
+      "sampled": 15
+    },
+    {
+      "dataset": "MRI/MR_BraTS-T2w",
+      "role": "competitor",
+      "quota": 10,
+      "pool": 1180,
+      "sampled": 10
+    },
+    {
+      "dataset": "CT/CT_TotalSeg_organs",
+      "role": "competitor",
+      "quota": 15,
+      "pool": 1057,
+      "sampled": 15
+    },
+    {
+      "dataset": "CT/CT_AMOS",
+      "role": "competitor",
+      "quota": 8,
+      "pool": 270,
+      "sampled": 8
+    },
+    {
+      "dataset": "CT/CT_Abdomen1K",
+      "role": "competitor",
+      "quota": 8,
+      "pool": 1000,
+      "sampled": 8
+    },
+    {
+      "dataset": "MRI/MR_Heart_ACDC",
+      "role": "competitor",
+      "quota": 15,
+      "pool": 270,
+      "sampled": 15
+    },
+    {
+      "dataset": "US3D/US_Cardiac",
+      "role": "competitor",
+      "quota": 10,
+      "pool": 900,
+      "sampled": 10
+    },
+    {
+      "dataset": "CT/CT_LymphNode",
+      "role": "competitor",
+      "quota": 8,
+      "pool": 259,
+      "sampled": 8
+    },
+    {
+      "dataset": "CT/CT_COVID19-Infection",
+      "role": "competitor",
+      "quota": 8,
+      "pool": 171,
+      "sampled": 8
+    },
+    {
+      "dataset": "MRI/MR_ISLES_DWI",
+      "role": "competitor",
+      "quota": 8,
+      "pool": 138,
+      "sampled": 8
+    },
+    {
+      "dataset": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea",
+      "role": "competitor",
+      "quota": 8,
+      "pool": 205,
+      "sampled": 8
+    },
+    {
+      "dataset": "MRI/MR_HNTS-MRG_HeadTumor",
+      "role": "competitor",
+      "quota": 7,
+      "pool": 205,
+      "sampled": 7
+    },
+    {
+      "dataset": "MRI/MR_Spider_Vertebrae",
+      "role": "non_competitor",
+      "quota": 20,
+      "pool": 403,
+      "sampled": 20
+    },
+    {
+      "dataset": "MRI/MR_Spider_IVD",
+      "role": "non_competitor",
+      "quota": 15,
+      "pool": 403,
+      "sampled": 15
+    },
+    {
+      "dataset": "CT/CT_TotalSeg_muscles",
+      "role": "non_competitor",
+      "quota": 20,
+      "pool": 1092,
+      "sampled": 20
+    },
+    {
+      "dataset": "CT/CT_Lungs",
+      "role": "non_competitor",
+      "quota": 15,
+      "pool": 418,
+      "sampled": 15
+    },
+    {
+      "dataset": "CT/CT_TotalSeg-vertebrae",
+      "role": "non_competitor",
+      "quota": 15,
+      "pool": 556,
+      "sampled": 15
+    },
+    {
+      "dataset": "Microscopy/Microscopy_nucmm",
+      "role": "non_competitor",
+      "quota": 10,
+      "pool": 49,
+      "sampled": 10
+    },
+    {
+      "dataset": "Microscopy/Microscopy_MUCIC-HL60",
+      "role": "non_competitor",
+      "quota": 10,
+      "pool": 120,
+      "sampled": 10
+    },
+    {
+      "dataset": "MRI/MR_WMH_FLAIR",
+      "role": "non_competitor",
+      "quota": 10,
+      "pool": 153,
+      "sampled": 10
+    },
+    {
+      "dataset": "MRI/MR_WMH_T1",
+      "role": "non_competitor",
+      "quota": 10,
+      "pool": 153,
+      "sampled": 10
+    },
+    {
+      "dataset": "CT/CT_DeepLesion",
+      "role": "non_competitor",
+      "quota": 15,
+      "pool": 426,
+      "sampled": 15
+    },
+    {
+      "dataset": "Microscopy/Microscopy_SELMA3D_vessel",
+      "role": "non_competitor",
+      "quota": 10,
+      "pool": 21,
+      "sampled": 10
+    },
+    {
+      "dataset": "CT/CT_LungLesion",
+      "role": "non_competitor",
+      "quota": 5,
+      "pool": 68,
+      "sampled": 5
+    }
+  ],
+  "files": [
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0056.npz",
+      "rel_path": "MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0056.npz",
+      "dataset": "MR_BraTS-T1c",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T1c",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0059.npz",
+      "rel_path": "MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0059.npz",
+      "dataset": "MR_BraTS-T1c",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T1c",
+      "role": "competitor",
+      "num_classes": 4
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0068.npz",
+      "rel_path": "MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0068.npz",
+      "dataset": "MR_BraTS-T1c",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T1c",
+      "role": "competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0073.npz",
+      "rel_path": "MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0073.npz",
+      "dataset": "MR_BraTS-T1c",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T1c",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0206.npz",
+      "rel_path": "MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0206.npz",
+      "dataset": "MR_BraTS-T1c",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T1c",
+      "role": "competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0222.npz",
+      "rel_path": "MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0222.npz",
+      "dataset": "MR_BraTS-T1c",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T1c",
+      "role": "competitor",
+      "num_classes": 4
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0244.npz",
+      "rel_path": "MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0244.npz",
+      "dataset": "MR_BraTS-T1c",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T1c",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0264.npz",
+      "rel_path": "MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0264.npz",
+      "dataset": "MR_BraTS-T1c",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T1c",
+      "role": "competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0324.npz",
+      "rel_path": "MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0324.npz",
+      "dataset": "MR_BraTS-T1c",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T1c",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0461.npz",
+      "rel_path": "MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0461.npz",
+      "dataset": "MR_BraTS-T1c",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T1c",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0512.npz",
+      "rel_path": "MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0512.npz",
+      "dataset": "MR_BraTS-T1c",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T1c",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0522.npz",
+      "rel_path": "MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0522.npz",
+      "dataset": "MR_BraTS-T1c",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T1c",
+      "role": "competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0543.npz",
+      "rel_path": "MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0543.npz",
+      "dataset": "MR_BraTS-T1c",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T1c",
+      "role": "competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0570.npz",
+      "rel_path": "MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0570.npz",
+      "dataset": "MR_BraTS-T1c",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T1c",
+      "role": "competitor",
+      "num_classes": 4
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0642.npz",
+      "rel_path": "MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0642.npz",
+      "dataset": "MR_BraTS-T1c",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T1c",
+      "role": "competitor",
+      "num_classes": 4
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0979.npz",
+      "rel_path": "MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0979.npz",
+      "dataset": "MR_BraTS-T1c",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T1c",
+      "role": "competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0986.npz",
+      "rel_path": "MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_0986.npz",
+      "dataset": "MR_BraTS-T1c",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T1c",
+      "role": "competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_1178.npz",
+      "rel_path": "MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_1178.npz",
+      "dataset": "MR_BraTS-T1c",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T1c",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_1276.npz",
+      "rel_path": "MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_1276.npz",
+      "dataset": "MR_BraTS-T1c",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T1c",
+      "role": "competitor",
+      "num_classes": 4
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_1315.npz",
+      "rel_path": "MRI/MR_BraTS-T1c/MR_BraTS-T1c_bratsgli_1315.npz",
+      "dataset": "MR_BraTS-T1c",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T1c",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0013.npz",
+      "rel_path": "MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0013.npz",
+      "dataset": "MR_BraTS-T1n",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T1n",
+      "role": "competitor",
+      "num_classes": 4
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0208.npz",
+      "rel_path": "MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0208.npz",
+      "dataset": "MR_BraTS-T1n",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T1n",
+      "role": "competitor",
+      "num_classes": 4
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0218.npz",
+      "rel_path": "MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0218.npz",
+      "dataset": "MR_BraTS-T1n",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T1n",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0229.npz",
+      "rel_path": "MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0229.npz",
+      "dataset": "MR_BraTS-T1n",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T1n",
+      "role": "competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0355.npz",
+      "rel_path": "MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0355.npz",
+      "dataset": "MR_BraTS-T1n",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T1n",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0363.npz",
+      "rel_path": "MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0363.npz",
+      "dataset": "MR_BraTS-T1n",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T1n",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0499.npz",
+      "rel_path": "MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0499.npz",
+      "dataset": "MR_BraTS-T1n",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T1n",
+      "role": "competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0516.npz",
+      "rel_path": "MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0516.npz",
+      "dataset": "MR_BraTS-T1n",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T1n",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0650.npz",
+      "rel_path": "MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0650.npz",
+      "dataset": "MR_BraTS-T1n",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T1n",
+      "role": "competitor",
+      "num_classes": 4
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0784.npz",
+      "rel_path": "MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0784.npz",
+      "dataset": "MR_BraTS-T1n",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T1n",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0792.npz",
+      "rel_path": "MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0792.npz",
+      "dataset": "MR_BraTS-T1n",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T1n",
+      "role": "competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0840.npz",
+      "rel_path": "MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0840.npz",
+      "dataset": "MR_BraTS-T1n",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T1n",
+      "role": "competitor",
+      "num_classes": 4
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0892.npz",
+      "rel_path": "MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0892.npz",
+      "dataset": "MR_BraTS-T1n",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T1n",
+      "role": "competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0986.npz",
+      "rel_path": "MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_0986.npz",
+      "dataset": "MR_BraTS-T1n",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T1n",
+      "role": "competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_1051.npz",
+      "rel_path": "MRI/MR_BraTS-T1n/MR_BraTS-T1n_bratsgli_1051.npz",
+      "dataset": "MR_BraTS-T1n",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T1n",
+      "role": "competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0098.npz",
+      "rel_path": "MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0098.npz",
+      "dataset": "MR_BraTS-T2f",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T2f",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0103.npz",
+      "rel_path": "MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0103.npz",
+      "dataset": "MR_BraTS-T2f",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T2f",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0160.npz",
+      "rel_path": "MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0160.npz",
+      "dataset": "MR_BraTS-T2f",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T2f",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0179.npz",
+      "rel_path": "MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0179.npz",
+      "dataset": "MR_BraTS-T2f",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T2f",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0287.npz",
+      "rel_path": "MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0287.npz",
+      "dataset": "MR_BraTS-T2f",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T2f",
+      "role": "competitor",
+      "num_classes": 4
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0446.npz",
+      "rel_path": "MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0446.npz",
+      "dataset": "MR_BraTS-T2f",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T2f",
+      "role": "competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0623.npz",
+      "rel_path": "MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0623.npz",
+      "dataset": "MR_BraTS-T2f",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T2f",
+      "role": "competitor",
+      "num_classes": 4
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0689.npz",
+      "rel_path": "MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0689.npz",
+      "dataset": "MR_BraTS-T2f",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T2f",
+      "role": "competitor",
+      "num_classes": 4
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0809.npz",
+      "rel_path": "MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0809.npz",
+      "dataset": "MR_BraTS-T2f",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T2f",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0852.npz",
+      "rel_path": "MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0852.npz",
+      "dataset": "MR_BraTS-T2f",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T2f",
+      "role": "competitor",
+      "num_classes": 4
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0892.npz",
+      "rel_path": "MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_0892.npz",
+      "dataset": "MR_BraTS-T2f",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T2f",
+      "role": "competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_1081.npz",
+      "rel_path": "MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_1081.npz",
+      "dataset": "MR_BraTS-T2f",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T2f",
+      "role": "competitor",
+      "num_classes": 4
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_1258.npz",
+      "rel_path": "MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_1258.npz",
+      "dataset": "MR_BraTS-T2f",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T2f",
+      "role": "competitor",
+      "num_classes": 4
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_1291.npz",
+      "rel_path": "MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_1291.npz",
+      "dataset": "MR_BraTS-T2f",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T2f",
+      "role": "competitor",
+      "num_classes": 4
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_1349.npz",
+      "rel_path": "MRI/MR_BraTS-T2f/MR_BraTS-T2f_bratsgli_1349.npz",
+      "dataset": "MR_BraTS-T2f",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T2f",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0177.npz",
+      "rel_path": "MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0177.npz",
+      "dataset": "MR_BraTS-T2w",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T2w",
+      "role": "competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0224.npz",
+      "rel_path": "MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0224.npz",
+      "dataset": "MR_BraTS-T2w",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T2w",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0367.npz",
+      "rel_path": "MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0367.npz",
+      "dataset": "MR_BraTS-T2w",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T2w",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0524.npz",
+      "rel_path": "MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0524.npz",
+      "dataset": "MR_BraTS-T2w",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T2w",
+      "role": "competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0534.npz",
+      "rel_path": "MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0534.npz",
+      "dataset": "MR_BraTS-T2w",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T2w",
+      "role": "competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0638.npz",
+      "rel_path": "MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0638.npz",
+      "dataset": "MR_BraTS-T2w",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T2w",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0664.npz",
+      "rel_path": "MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0664.npz",
+      "dataset": "MR_BraTS-T2w",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T2w",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0854.npz",
+      "rel_path": "MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0854.npz",
+      "dataset": "MR_BraTS-T2w",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T2w",
+      "role": "competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0888.npz",
+      "rel_path": "MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_0888.npz",
+      "dataset": "MR_BraTS-T2w",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T2w",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_1065.npz",
+      "rel_path": "MRI/MR_BraTS-T2w/MR_BraTS-T2w_bratsgli_1065.npz",
+      "dataset": "MR_BraTS-T2w",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_BraTS-T2w",
+      "role": "competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0158.npz",
+      "rel_path": "CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0158.npz",
+      "dataset": "CT_TotalSeg_organs",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg_organs",
+      "role": "competitor",
+      "num_classes": 19
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0206.npz",
+      "rel_path": "CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0206.npz",
+      "dataset": "CT_TotalSeg_organs",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg_organs",
+      "role": "competitor",
+      "num_classes": 18
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0466.npz",
+      "rel_path": "CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0466.npz",
+      "dataset": "CT_TotalSeg_organs",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg_organs",
+      "role": "competitor",
+      "num_classes": 6
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0486.npz",
+      "rel_path": "CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0486.npz",
+      "dataset": "CT_TotalSeg_organs",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg_organs",
+      "role": "competitor",
+      "num_classes": 18
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0590.npz",
+      "rel_path": "CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0590.npz",
+      "dataset": "CT_TotalSeg_organs",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg_organs",
+      "role": "competitor",
+      "num_classes": 16
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0617.npz",
+      "rel_path": "CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0617.npz",
+      "dataset": "CT_TotalSeg_organs",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg_organs",
+      "role": "competitor",
+      "num_classes": 22
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0643.npz",
+      "rel_path": "CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0643.npz",
+      "dataset": "CT_TotalSeg_organs",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg_organs",
+      "role": "competitor",
+      "num_classes": 7
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0681.npz",
+      "rel_path": "CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0681.npz",
+      "dataset": "CT_TotalSeg_organs",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg_organs",
+      "role": "competitor",
+      "num_classes": 14
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0738.npz",
+      "rel_path": "CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0738.npz",
+      "dataset": "CT_TotalSeg_organs",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg_organs",
+      "role": "competitor",
+      "num_classes": 11
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0747.npz",
+      "rel_path": "CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0747.npz",
+      "dataset": "CT_TotalSeg_organs",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg_organs",
+      "role": "competitor",
+      "num_classes": 20
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0899.npz",
+      "rel_path": "CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0899.npz",
+      "dataset": "CT_TotalSeg_organs",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg_organs",
+      "role": "competitor",
+      "num_classes": 22
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0986.npz",
+      "rel_path": "CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s0986.npz",
+      "dataset": "CT_TotalSeg_organs",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg_organs",
+      "role": "competitor",
+      "num_classes": 21
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s1024.npz",
+      "rel_path": "CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s1024.npz",
+      "dataset": "CT_TotalSeg_organs",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg_organs",
+      "role": "competitor",
+      "num_classes": 21
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s1049.npz",
+      "rel_path": "CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s1049.npz",
+      "dataset": "CT_TotalSeg_organs",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg_organs",
+      "role": "competitor",
+      "num_classes": 9
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s1274.npz",
+      "rel_path": "CT/CT_TotalSeg_organs/CT_TotalSeg_organs_s1274.npz",
+      "dataset": "CT_TotalSeg_organs",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg_organs",
+      "role": "competitor",
+      "num_classes": 7
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0023.npz",
+      "rel_path": "CT/CT_AMOS/CT_AMOS_amos_0023.npz",
+      "dataset": "CT_AMOS",
+      "modality": "CT",
+      "ds_key": "CT/CT_AMOS",
+      "role": "competitor",
+      "num_classes": 15
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0050.npz",
+      "rel_path": "CT/CT_AMOS/CT_AMOS_amos_0050.npz",
+      "dataset": "CT_AMOS",
+      "modality": "CT",
+      "ds_key": "CT/CT_AMOS",
+      "role": "competitor",
+      "num_classes": 15
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0157.npz",
+      "rel_path": "CT/CT_AMOS/CT_AMOS_amos_0157.npz",
+      "dataset": "CT_AMOS",
+      "modality": "CT",
+      "ds_key": "CT/CT_AMOS",
+      "role": "competitor",
+      "num_classes": 15
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0196.npz",
+      "rel_path": "CT/CT_AMOS/CT_AMOS_amos_0196.npz",
+      "dataset": "CT_AMOS",
+      "modality": "CT",
+      "ds_key": "CT/CT_AMOS",
+      "role": "competitor",
+      "num_classes": 15
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0235.npz",
+      "rel_path": "CT/CT_AMOS/CT_AMOS_amos_0235.npz",
+      "dataset": "CT_AMOS",
+      "modality": "CT",
+      "ds_key": "CT/CT_AMOS",
+      "role": "competitor",
+      "num_classes": 15
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0307.npz",
+      "rel_path": "CT/CT_AMOS/CT_AMOS_amos_0307.npz",
+      "dataset": "CT_AMOS",
+      "modality": "CT",
+      "ds_key": "CT/CT_AMOS",
+      "role": "competitor",
+      "num_classes": 15
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0311.npz",
+      "rel_path": "CT/CT_AMOS/CT_AMOS_amos_0311.npz",
+      "dataset": "CT_AMOS",
+      "modality": "CT",
+      "ds_key": "CT/CT_AMOS",
+      "role": "competitor",
+      "num_classes": 14
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_AMOS/CT_AMOS_amos_0388.npz",
+      "rel_path": "CT/CT_AMOS/CT_AMOS_amos_0388.npz",
+      "dataset": "CT_AMOS",
+      "modality": "CT",
+      "ds_key": "CT/CT_AMOS",
+      "role": "competitor",
+      "num_classes": 15
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00153.npz",
+      "rel_path": "CT/CT_Abdomen1K/CT_Abdomen1K_Case_00153.npz",
+      "dataset": "CT_Abdomen1K",
+      "modality": "CT",
+      "ds_key": "CT/CT_Abdomen1K",
+      "role": "competitor",
+      "num_classes": 5
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00157.npz",
+      "rel_path": "CT/CT_Abdomen1K/CT_Abdomen1K_Case_00157.npz",
+      "dataset": "CT_Abdomen1K",
+      "modality": "CT",
+      "ds_key": "CT/CT_Abdomen1K",
+      "role": "competitor",
+      "num_classes": 5
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00269.npz",
+      "rel_path": "CT/CT_Abdomen1K/CT_Abdomen1K_Case_00269.npz",
+      "dataset": "CT_Abdomen1K",
+      "modality": "CT",
+      "ds_key": "CT/CT_Abdomen1K",
+      "role": "competitor",
+      "num_classes": 5
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00289.npz",
+      "rel_path": "CT/CT_Abdomen1K/CT_Abdomen1K_Case_00289.npz",
+      "dataset": "CT_Abdomen1K",
+      "modality": "CT",
+      "ds_key": "CT/CT_Abdomen1K",
+      "role": "competitor",
+      "num_classes": 5
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00498.npz",
+      "rel_path": "CT/CT_Abdomen1K/CT_Abdomen1K_Case_00498.npz",
+      "dataset": "CT_Abdomen1K",
+      "modality": "CT",
+      "ds_key": "CT/CT_Abdomen1K",
+      "role": "competitor",
+      "num_classes": 5
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00699.npz",
+      "rel_path": "CT/CT_Abdomen1K/CT_Abdomen1K_Case_00699.npz",
+      "dataset": "CT_Abdomen1K",
+      "modality": "CT",
+      "ds_key": "CT/CT_Abdomen1K",
+      "role": "competitor",
+      "num_classes": 5
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00968.npz",
+      "rel_path": "CT/CT_Abdomen1K/CT_Abdomen1K_Case_00968.npz",
+      "dataset": "CT_Abdomen1K",
+      "modality": "CT",
+      "ds_key": "CT/CT_Abdomen1K",
+      "role": "competitor",
+      "num_classes": 5
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Abdomen1K/CT_Abdomen1K_Case_00999.npz",
+      "rel_path": "CT/CT_Abdomen1K/CT_Abdomen1K_Case_00999.npz",
+      "dataset": "CT_Abdomen1K",
+      "modality": "CT",
+      "ds_key": "CT/CT_Abdomen1K",
+      "role": "competitor",
+      "num_classes": 5
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient013_frame14.npz",
+      "rel_path": "MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient013_frame14.npz",
+      "dataset": "MR_Heart_ACDC",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Heart_ACDC",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient018_frame01.npz",
+      "rel_path": "MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient018_frame01.npz",
+      "dataset": "MR_Heart_ACDC",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Heart_ACDC",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient026_frame12.npz",
+      "rel_path": "MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient026_frame12.npz",
+      "dataset": "MR_Heart_ACDC",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Heart_ACDC",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient032_frame12.npz",
+      "rel_path": "MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient032_frame12.npz",
+      "dataset": "MR_Heart_ACDC",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Heart_ACDC",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient039_frame10.npz",
+      "rel_path": "MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient039_frame10.npz",
+      "dataset": "MR_Heart_ACDC",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Heart_ACDC",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient043_frame07.npz",
+      "rel_path": "MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient043_frame07.npz",
+      "dataset": "MR_Heart_ACDC",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Heart_ACDC",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient045_frame13.npz",
+      "rel_path": "MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient045_frame13.npz",
+      "dataset": "MR_Heart_ACDC",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Heart_ACDC",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient062_frame09.npz",
+      "rel_path": "MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient062_frame09.npz",
+      "dataset": "MR_Heart_ACDC",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Heart_ACDC",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient074_frame12.npz",
+      "rel_path": "MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient074_frame12.npz",
+      "dataset": "MR_Heart_ACDC",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Heart_ACDC",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient103_frame01.npz",
+      "rel_path": "MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient103_frame01.npz",
+      "dataset": "MR_Heart_ACDC",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Heart_ACDC",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient114_frame01.npz",
+      "rel_path": "MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient114_frame01.npz",
+      "dataset": "MR_Heart_ACDC",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Heart_ACDC",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient122_frame01.npz",
+      "rel_path": "MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient122_frame01.npz",
+      "dataset": "MR_Heart_ACDC",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Heart_ACDC",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient124_frame07.npz",
+      "rel_path": "MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient124_frame07.npz",
+      "dataset": "MR_Heart_ACDC",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Heart_ACDC",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient141_frame11.npz",
+      "rel_path": "MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient141_frame11.npz",
+      "dataset": "MR_Heart_ACDC",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Heart_ACDC",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient145_frame13.npz",
+      "rel_path": "MRI/MR_Heart_ACDC/MR_heart-ACDC_ACDC_patient145_frame13.npz",
+      "dataset": "MR_Heart_ACDC",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Heart_ACDC",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0006_4CH_half_sequence.npz",
+      "rel_path": "US3D/US_Cardiac/US_Cardiac_patient0006_4CH_half_sequence.npz",
+      "dataset": "US_Cardiac",
+      "modality": "US3D",
+      "ds_key": "US3D/US_Cardiac",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0133_4CH_half_sequence.npz",
+      "rel_path": "US3D/US_Cardiac/US_Cardiac_patient0133_4CH_half_sequence.npz",
+      "dataset": "US_Cardiac",
+      "modality": "US3D",
+      "ds_key": "US3D/US_Cardiac",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0207_2CH_half_sequence.npz",
+      "rel_path": "US3D/US_Cardiac/US_Cardiac_patient0207_2CH_half_sequence.npz",
+      "dataset": "US_Cardiac",
+      "modality": "US3D",
+      "ds_key": "US3D/US_Cardiac",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0210_2CH_half_sequence.npz",
+      "rel_path": "US3D/US_Cardiac/US_Cardiac_patient0210_2CH_half_sequence.npz",
+      "dataset": "US_Cardiac",
+      "modality": "US3D",
+      "ds_key": "US3D/US_Cardiac",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0290_4CH_half_sequence.npz",
+      "rel_path": "US3D/US_Cardiac/US_Cardiac_patient0290_4CH_half_sequence.npz",
+      "dataset": "US_Cardiac",
+      "modality": "US3D",
+      "ds_key": "US3D/US_Cardiac",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0321_4CH_half_sequence.npz",
+      "rel_path": "US3D/US_Cardiac/US_Cardiac_patient0321_4CH_half_sequence.npz",
+      "dataset": "US_Cardiac",
+      "modality": "US3D",
+      "ds_key": "US3D/US_Cardiac",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0334_2CH_half_sequence.npz",
+      "rel_path": "US3D/US_Cardiac/US_Cardiac_patient0334_2CH_half_sequence.npz",
+      "dataset": "US_Cardiac",
+      "modality": "US3D",
+      "ds_key": "US3D/US_Cardiac",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0356_2CH_half_sequence.npz",
+      "rel_path": "US3D/US_Cardiac/US_Cardiac_patient0356_2CH_half_sequence.npz",
+      "dataset": "US_Cardiac",
+      "modality": "US3D",
+      "ds_key": "US3D/US_Cardiac",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0399_2CH_half_sequence.npz",
+      "rel_path": "US3D/US_Cardiac/US_Cardiac_patient0399_2CH_half_sequence.npz",
+      "dataset": "US_Cardiac",
+      "modality": "US3D",
+      "ds_key": "US3D/US_Cardiac",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/US3D/US_Cardiac/US_Cardiac_patient0491_4CH_half_sequence.npz",
+      "rel_path": "US3D/US_Cardiac/US_Cardiac_patient0491_4CH_half_sequence.npz",
+      "dataset": "US_Cardiac",
+      "modality": "US3D",
+      "ds_key": "US3D/US_Cardiac",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LymphNode/CT_LNQ_LymphNode-0259.npz",
+      "rel_path": "CT/CT_LymphNode/CT_LNQ_LymphNode-0259.npz",
+      "dataset": "CT_LymphNode",
+      "modality": "CT",
+      "ds_key": "CT/CT_LymphNode",
+      "role": "competitor",
+      "num_classes": 4
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LymphNode/CT_LNQ_LymphNode-0267.npz",
+      "rel_path": "CT/CT_LymphNode/CT_LNQ_LymphNode-0267.npz",
+      "dataset": "CT_LymphNode",
+      "modality": "CT",
+      "ds_key": "CT/CT_LymphNode",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LymphNode/CT_LNQ_LymphNode-0356.npz",
+      "rel_path": "CT/CT_LymphNode/CT_LNQ_LymphNode-0356.npz",
+      "dataset": "CT_LymphNode",
+      "modality": "CT",
+      "ds_key": "CT/CT_LymphNode",
+      "role": "competitor",
+      "num_classes": 4
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LymphNode/CT_LNQ_LymphNode-0567.npz",
+      "rel_path": "CT/CT_LymphNode/CT_LNQ_LymphNode-0567.npz",
+      "dataset": "CT_LymphNode",
+      "modality": "CT",
+      "ds_key": "CT/CT_LymphNode",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LymphNode/CT_LNQ_LymphNode-0645.npz",
+      "rel_path": "CT/CT_LymphNode/CT_LNQ_LymphNode-0645.npz",
+      "dataset": "CT_LymphNode",
+      "modality": "CT",
+      "ds_key": "CT/CT_LymphNode",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LymphNode/CT_LNQ_LymphNode-0748.npz",
+      "rel_path": "CT/CT_LymphNode/CT_LNQ_LymphNode-0748.npz",
+      "dataset": "CT_LymphNode",
+      "modality": "CT",
+      "ds_key": "CT/CT_LymphNode",
+      "role": "competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LymphNode/CT_LNQ_LymphNode-0962.npz",
+      "rel_path": "CT/CT_LymphNode/CT_LNQ_LymphNode-0962.npz",
+      "dataset": "CT_LymphNode",
+      "modality": "CT",
+      "ds_key": "CT/CT_LymphNode",
+      "role": "competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LymphNode/CT_LNQ_LymphNode-1002.npz",
+      "rel_path": "CT/CT_LymphNode/CT_LNQ_LymphNode-1002.npz",
+      "dataset": "CT_LymphNode",
+      "modality": "CT",
+      "ds_key": "CT/CT_LymphNode",
+      "role": "competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_COVID19-Infection/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0003.npz",
+      "rel_path": "CT/CT_COVID19-Infection/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0003.npz",
+      "dataset": "CT_COVID19-Infection",
+      "modality": "CT",
+      "ds_key": "CT/CT_COVID19-Infection",
+      "role": "competitor",
+      "num_classes": 4
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_COVID19-Infection/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0120.npz",
+      "rel_path": "CT/CT_COVID19-Infection/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0120.npz",
+      "dataset": "CT_COVID19-Infection",
+      "modality": "CT",
+      "ds_key": "CT/CT_COVID19-Infection",
+      "role": "competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_COVID19-Infection/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0214.npz",
+      "rel_path": "CT/CT_COVID19-Infection/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0214.npz",
+      "dataset": "CT_COVID19-Infection",
+      "modality": "CT",
+      "ds_key": "CT/CT_COVID19-Infection",
+      "role": "competitor",
+      "num_classes": 5
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_COVID19-Infection/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0315.npz",
+      "rel_path": "CT/CT_COVID19-Infection/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0315.npz",
+      "dataset": "CT_COVID19-Infection",
+      "modality": "CT",
+      "ds_key": "CT/CT_COVID19-Infection",
+      "role": "competitor",
+      "num_classes": 5
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_COVID19-Infection/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0342.npz",
+      "rel_path": "CT/CT_COVID19-Infection/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0342.npz",
+      "dataset": "CT_COVID19-Infection",
+      "modality": "CT",
+      "ds_key": "CT/CT_COVID19-Infection",
+      "role": "competitor",
+      "num_classes": 12
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_COVID19-Infection/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0569.npz",
+      "rel_path": "CT/CT_COVID19-Infection/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0569.npz",
+      "dataset": "CT_COVID19-Infection",
+      "modality": "CT",
+      "ds_key": "CT/CT_COVID19-Infection",
+      "role": "competitor",
+      "num_classes": 4
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_COVID19-Infection/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0570.npz",
+      "rel_path": "CT/CT_COVID19-Infection/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0570.npz",
+      "dataset": "CT_COVID19-Infection",
+      "modality": "CT",
+      "ds_key": "CT/CT_COVID19-Infection",
+      "role": "competitor",
+      "num_classes": 4
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_COVID19-Infection/CT_COVID19-CT-Seg-Bench_coronacases_008.npz",
+      "rel_path": "CT/CT_COVID19-Infection/CT_COVID19-CT-Seg-Bench_coronacases_008.npz",
+      "dataset": "CT_COVID19-Infection",
+      "modality": "CT",
+      "ds_key": "CT/CT_COVID19-Infection",
+      "role": "competitor",
+      "num_classes": 16
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0001.npz",
+      "rel_path": "MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0001.npz",
+      "dataset": "MR_ISLES_DWI",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_ISLES_DWI",
+      "role": "competitor",
+      "num_classes": 10
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0071.npz",
+      "rel_path": "MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0071.npz",
+      "dataset": "MR_ISLES_DWI",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_ISLES_DWI",
+      "role": "competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0073.npz",
+      "rel_path": "MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0073.npz",
+      "dataset": "MR_ISLES_DWI",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_ISLES_DWI",
+      "role": "competitor",
+      "num_classes": 4
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0094.npz",
+      "rel_path": "MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0094.npz",
+      "dataset": "MR_ISLES_DWI",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_ISLES_DWI",
+      "role": "competitor",
+      "num_classes": 5
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0162.npz",
+      "rel_path": "MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0162.npz",
+      "dataset": "MR_ISLES_DWI",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_ISLES_DWI",
+      "role": "competitor",
+      "num_classes": 7
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0186.npz",
+      "rel_path": "MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0186.npz",
+      "dataset": "MR_ISLES_DWI",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_ISLES_DWI",
+      "role": "competitor",
+      "num_classes": 9
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0237.npz",
+      "rel_path": "MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0237.npz",
+      "dataset": "MR_ISLES_DWI",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_ISLES_DWI",
+      "role": "competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0247.npz",
+      "rel_path": "MRI/MR_ISLES_DWI/MR_ISLES2022_DWI_sub-strokecase0247.npz",
+      "dataset": "MR_ISLES_DWI",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_ISLES_DWI",
+      "role": "competitor",
+      "num_classes": 4
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_etz_104_ceT1.npz",
+      "rel_path": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_etz_104_ceT1.npz",
+      "dataset": "MR_T1c_crossMoDA_Tumor_Cochlea",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea",
+      "role": "competitor",
+      "num_classes": 4
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_etz_18_ceT1.npz",
+      "rel_path": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_etz_18_ceT1.npz",
+      "dataset": "MR_T1c_crossMoDA_Tumor_Cochlea",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_etz_31_ceT1.npz",
+      "rel_path": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_etz_31_ceT1.npz",
+      "dataset": "MR_T1c_crossMoDA_Tumor_Cochlea",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea",
+      "role": "competitor",
+      "num_classes": 4
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_etz_66_ceT1.npz",
+      "rel_path": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_etz_66_ceT1.npz",
+      "dataset": "MR_T1c_crossMoDA_Tumor_Cochlea",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea",
+      "role": "competitor",
+      "num_classes": 4
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_etz_82_ceT1.npz",
+      "rel_path": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_etz_82_ceT1.npz",
+      "dataset": "MR_T1c_crossMoDA_Tumor_Cochlea",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea",
+      "role": "competitor",
+      "num_classes": 4
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_etz_95_ceT1.npz",
+      "rel_path": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_etz_95_ceT1.npz",
+      "dataset": "MR_T1c_crossMoDA_Tumor_Cochlea",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea",
+      "role": "competitor",
+      "num_classes": 4
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_ldn_37_ceT1.npz",
+      "rel_path": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_ldn_37_ceT1.npz",
+      "dataset": "MR_T1c_crossMoDA_Tumor_Cochlea",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea",
+      "role": "competitor",
+      "num_classes": 4
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_ldn_58_ceT1.npz",
+      "rel_path": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea/MR_crossmoda_crossmoda2023_ldn_58_ceT1.npz",
+      "dataset": "MR_T1c_crossMoDA_Tumor_Cochlea",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_T1c_crossMoDA_Tumor_Cochlea",
+      "role": "competitor",
+      "num_classes": 4
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_HNTS-MRG_HeadTumor/MR_Head_HNTSMRG24_111_midRT_T2.npz",
+      "rel_path": "MRI/MR_HNTS-MRG_HeadTumor/MR_Head_HNTSMRG24_111_midRT_T2.npz",
+      "dataset": "MR_HNTS-MRG_HeadTumor",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_HNTS-MRG_HeadTumor",
+      "role": "competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_HNTS-MRG_HeadTumor/MR_Head_HNTSMRG24_113_preRT_T2.npz",
+      "rel_path": "MRI/MR_HNTS-MRG_HeadTumor/MR_Head_HNTSMRG24_113_preRT_T2.npz",
+      "dataset": "MR_HNTS-MRG_HeadTumor",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_HNTS-MRG_HeadTumor",
+      "role": "competitor",
+      "num_classes": 4
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_HNTS-MRG_HeadTumor/MR_Head_HNTSMRG24_114_midRT_T2.npz",
+      "rel_path": "MRI/MR_HNTS-MRG_HeadTumor/MR_Head_HNTSMRG24_114_midRT_T2.npz",
+      "dataset": "MR_HNTS-MRG_HeadTumor",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_HNTS-MRG_HeadTumor",
+      "role": "competitor",
+      "num_classes": 4
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_HNTS-MRG_HeadTumor/MR_Head_HNTSMRG24_30_preRT_T2.npz",
+      "rel_path": "MRI/MR_HNTS-MRG_HeadTumor/MR_Head_HNTSMRG24_30_preRT_T2.npz",
+      "dataset": "MR_HNTS-MRG_HeadTumor",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_HNTS-MRG_HeadTumor",
+      "role": "competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_HNTS-MRG_HeadTumor/MR_Head_HNTSMRG24_39_preRT_T2.npz",
+      "rel_path": "MRI/MR_HNTS-MRG_HeadTumor/MR_Head_HNTSMRG24_39_preRT_T2.npz",
+      "dataset": "MR_HNTS-MRG_HeadTumor",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_HNTS-MRG_HeadTumor",
+      "role": "competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_HNTS-MRG_HeadTumor/MR_Head_HNTSMRG24_83_midRT_T2.npz",
+      "rel_path": "MRI/MR_HNTS-MRG_HeadTumor/MR_Head_HNTSMRG24_83_midRT_T2.npz",
+      "dataset": "MR_HNTS-MRG_HeadTumor",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_HNTS-MRG_HeadTumor",
+      "role": "competitor",
+      "num_classes": 4
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_HNTS-MRG_HeadTumor/MR_Head_HNTSMRG24_8_midRT_T2.npz",
+      "rel_path": "MRI/MR_HNTS-MRG_HeadTumor/MR_Head_HNTSMRG24_8_midRT_T2.npz",
+      "dataset": "MR_HNTS-MRG_HeadTumor",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_HNTS-MRG_HeadTumor",
+      "role": "competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_140_t1_vet.npz",
+      "rel_path": "MRI/MR_Spider_Vertebrae/MR_Spider_140_t1_vet.npz",
+      "dataset": "MR_Spider_Vertebrae",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Spider_Vertebrae",
+      "role": "non_competitor",
+      "num_classes": 9
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_140_t2_vet.npz",
+      "rel_path": "MRI/MR_Spider_Vertebrae/MR_Spider_140_t2_vet.npz",
+      "dataset": "MR_Spider_Vertebrae",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Spider_Vertebrae",
+      "role": "non_competitor",
+      "num_classes": 9
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_152_t2_vet.npz",
+      "rel_path": "MRI/MR_Spider_Vertebrae/MR_Spider_152_t2_vet.npz",
+      "dataset": "MR_Spider_Vertebrae",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Spider_Vertebrae",
+      "role": "non_competitor",
+      "num_classes": 8
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_163_t1_vet.npz",
+      "rel_path": "MRI/MR_Spider_Vertebrae/MR_Spider_163_t1_vet.npz",
+      "dataset": "MR_Spider_Vertebrae",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Spider_Vertebrae",
+      "role": "non_competitor",
+      "num_classes": 7
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_166_t2_vet.npz",
+      "rel_path": "MRI/MR_Spider_Vertebrae/MR_Spider_166_t2_vet.npz",
+      "dataset": "MR_Spider_Vertebrae",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Spider_Vertebrae",
+      "role": "non_competitor",
+      "num_classes": 8
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_182_t2_vet.npz",
+      "rel_path": "MRI/MR_Spider_Vertebrae/MR_Spider_182_t2_vet.npz",
+      "dataset": "MR_Spider_Vertebrae",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Spider_Vertebrae",
+      "role": "non_competitor",
+      "num_classes": 9
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_196_t1_vet.npz",
+      "rel_path": "MRI/MR_Spider_Vertebrae/MR_Spider_196_t1_vet.npz",
+      "dataset": "MR_Spider_Vertebrae",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Spider_Vertebrae",
+      "role": "non_competitor",
+      "num_classes": 6
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_222_t1_vet.npz",
+      "rel_path": "MRI/MR_Spider_Vertebrae/MR_Spider_222_t1_vet.npz",
+      "dataset": "MR_Spider_Vertebrae",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Spider_Vertebrae",
+      "role": "non_competitor",
+      "num_classes": 7
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_228_t2_vet.npz",
+      "rel_path": "MRI/MR_Spider_Vertebrae/MR_Spider_228_t2_vet.npz",
+      "dataset": "MR_Spider_Vertebrae",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Spider_Vertebrae",
+      "role": "non_competitor",
+      "num_classes": 6
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_243_t1_vet.npz",
+      "rel_path": "MRI/MR_Spider_Vertebrae/MR_Spider_243_t1_vet.npz",
+      "dataset": "MR_Spider_Vertebrae",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Spider_Vertebrae",
+      "role": "non_competitor",
+      "num_classes": 7
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_28_t2_vet.npz",
+      "rel_path": "MRI/MR_Spider_Vertebrae/MR_Spider_28_t2_vet.npz",
+      "dataset": "MR_Spider_Vertebrae",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Spider_Vertebrae",
+      "role": "non_competitor",
+      "num_classes": 7
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_30_t2_vet.npz",
+      "rel_path": "MRI/MR_Spider_Vertebrae/MR_Spider_30_t2_vet.npz",
+      "dataset": "MR_Spider_Vertebrae",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Spider_Vertebrae",
+      "role": "non_competitor",
+      "num_classes": 7
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_33_t2_vet.npz",
+      "rel_path": "MRI/MR_Spider_Vertebrae/MR_Spider_33_t2_vet.npz",
+      "dataset": "MR_Spider_Vertebrae",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Spider_Vertebrae",
+      "role": "non_competitor",
+      "num_classes": 6
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_50_t2_SPACE_vet.npz",
+      "rel_path": "MRI/MR_Spider_Vertebrae/MR_Spider_50_t2_SPACE_vet.npz",
+      "dataset": "MR_Spider_Vertebrae",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Spider_Vertebrae",
+      "role": "non_competitor",
+      "num_classes": 8
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_62_t1_vet.npz",
+      "rel_path": "MRI/MR_Spider_Vertebrae/MR_Spider_62_t1_vet.npz",
+      "dataset": "MR_Spider_Vertebrae",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Spider_Vertebrae",
+      "role": "non_competitor",
+      "num_classes": 8
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_6_t2_vet.npz",
+      "rel_path": "MRI/MR_Spider_Vertebrae/MR_Spider_6_t2_vet.npz",
+      "dataset": "MR_Spider_Vertebrae",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Spider_Vertebrae",
+      "role": "non_competitor",
+      "num_classes": 6
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_7_t1_vet.npz",
+      "rel_path": "MRI/MR_Spider_Vertebrae/MR_Spider_7_t1_vet.npz",
+      "dataset": "MR_Spider_Vertebrae",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Spider_Vertebrae",
+      "role": "non_competitor",
+      "num_classes": 7
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_82_t1_vet.npz",
+      "rel_path": "MRI/MR_Spider_Vertebrae/MR_Spider_82_t1_vet.npz",
+      "dataset": "MR_Spider_Vertebrae",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Spider_Vertebrae",
+      "role": "non_competitor",
+      "num_classes": 7
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_8_t2_vet.npz",
+      "rel_path": "MRI/MR_Spider_Vertebrae/MR_Spider_8_t2_vet.npz",
+      "dataset": "MR_Spider_Vertebrae",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Spider_Vertebrae",
+      "role": "non_competitor",
+      "num_classes": 8
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_Vertebrae/MR_Spider_94_t2_vet.npz",
+      "rel_path": "MRI/MR_Spider_Vertebrae/MR_Spider_94_t2_vet.npz",
+      "dataset": "MR_Spider_Vertebrae",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Spider_Vertebrae",
+      "role": "non_competitor",
+      "num_classes": 7
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_107_t1_ivd.npz",
+      "rel_path": "MRI/MR_Spider_IVD/MR_Spider_107_t1_ivd.npz",
+      "dataset": "MR_Spider_IVD",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Spider_IVD",
+      "role": "non_competitor",
+      "num_classes": 7
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_11_t2_SPACE_ivd.npz",
+      "rel_path": "MRI/MR_Spider_IVD/MR_Spider_11_t2_SPACE_ivd.npz",
+      "dataset": "MR_Spider_IVD",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Spider_IVD",
+      "role": "non_competitor",
+      "num_classes": 8
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_137_t1_ivd.npz",
+      "rel_path": "MRI/MR_Spider_IVD/MR_Spider_137_t1_ivd.npz",
+      "dataset": "MR_Spider_IVD",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Spider_IVD",
+      "role": "non_competitor",
+      "num_classes": 6
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_16_t2_ivd.npz",
+      "rel_path": "MRI/MR_Spider_IVD/MR_Spider_16_t2_ivd.npz",
+      "dataset": "MR_Spider_IVD",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Spider_IVD",
+      "role": "non_competitor",
+      "num_classes": 7
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_170_t2_ivd.npz",
+      "rel_path": "MRI/MR_Spider_IVD/MR_Spider_170_t2_ivd.npz",
+      "dataset": "MR_Spider_IVD",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Spider_IVD",
+      "role": "non_competitor",
+      "num_classes": 7
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_175_t1_ivd.npz",
+      "rel_path": "MRI/MR_Spider_IVD/MR_Spider_175_t1_ivd.npz",
+      "dataset": "MR_Spider_IVD",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Spider_IVD",
+      "role": "non_competitor",
+      "num_classes": 6
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_1_t2_ivd.npz",
+      "rel_path": "MRI/MR_Spider_IVD/MR_Spider_1_t2_ivd.npz",
+      "dataset": "MR_Spider_IVD",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Spider_IVD",
+      "role": "non_competitor",
+      "num_classes": 7
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_212_t2_ivd.npz",
+      "rel_path": "MRI/MR_Spider_IVD/MR_Spider_212_t2_ivd.npz",
+      "dataset": "MR_Spider_IVD",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Spider_IVD",
+      "role": "non_competitor",
+      "num_classes": 7
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_22_t2_ivd.npz",
+      "rel_path": "MRI/MR_Spider_IVD/MR_Spider_22_t2_ivd.npz",
+      "dataset": "MR_Spider_IVD",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Spider_IVD",
+      "role": "non_competitor",
+      "num_classes": 8
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_234_t1_ivd.npz",
+      "rel_path": "MRI/MR_Spider_IVD/MR_Spider_234_t1_ivd.npz",
+      "dataset": "MR_Spider_IVD",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Spider_IVD",
+      "role": "non_competitor",
+      "num_classes": 9
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_256_t1_ivd.npz",
+      "rel_path": "MRI/MR_Spider_IVD/MR_Spider_256_t1_ivd.npz",
+      "dataset": "MR_Spider_IVD",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Spider_IVD",
+      "role": "non_competitor",
+      "num_classes": 8
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_34_t2_ivd.npz",
+      "rel_path": "MRI/MR_Spider_IVD/MR_Spider_34_t2_ivd.npz",
+      "dataset": "MR_Spider_IVD",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Spider_IVD",
+      "role": "non_competitor",
+      "num_classes": 7
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_44_t2_ivd.npz",
+      "rel_path": "MRI/MR_Spider_IVD/MR_Spider_44_t2_ivd.npz",
+      "dataset": "MR_Spider_IVD",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Spider_IVD",
+      "role": "non_competitor",
+      "num_classes": 7
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_5_t2_SPACE_ivd.npz",
+      "rel_path": "MRI/MR_Spider_IVD/MR_Spider_5_t2_SPACE_ivd.npz",
+      "dataset": "MR_Spider_IVD",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Spider_IVD",
+      "role": "non_competitor",
+      "num_classes": 7
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_Spider_IVD/MR_Spider_64_t2_ivd.npz",
+      "rel_path": "MRI/MR_Spider_IVD/MR_Spider_64_t2_ivd.npz",
+      "dataset": "MR_Spider_IVD",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_Spider_IVD",
+      "role": "non_competitor",
+      "num_classes": 6
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0022.npz",
+      "rel_path": "CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0022.npz",
+      "dataset": "CT_TotalSeg_muscles",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg_muscles",
+      "role": "non_competitor",
+      "num_classes": 15
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0088.npz",
+      "rel_path": "CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0088.npz",
+      "dataset": "CT_TotalSeg_muscles",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg_muscles",
+      "role": "non_competitor",
+      "num_classes": 5
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0162.npz",
+      "rel_path": "CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0162.npz",
+      "dataset": "CT_TotalSeg_muscles",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg_muscles",
+      "role": "non_competitor",
+      "num_classes": 9
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0187.npz",
+      "rel_path": "CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0187.npz",
+      "dataset": "CT_TotalSeg_muscles",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg_muscles",
+      "role": "non_competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0194.npz",
+      "rel_path": "CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0194.npz",
+      "dataset": "CT_TotalSeg_muscles",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg_muscles",
+      "role": "non_competitor",
+      "num_classes": 15
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0257.npz",
+      "rel_path": "CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0257.npz",
+      "dataset": "CT_TotalSeg_muscles",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg_muscles",
+      "role": "non_competitor",
+      "num_classes": 15
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0262.npz",
+      "rel_path": "CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0262.npz",
+      "dataset": "CT_TotalSeg_muscles",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg_muscles",
+      "role": "non_competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0366.npz",
+      "rel_path": "CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0366.npz",
+      "dataset": "CT_TotalSeg_muscles",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg_muscles",
+      "role": "non_competitor",
+      "num_classes": 16
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0517.npz",
+      "rel_path": "CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0517.npz",
+      "dataset": "CT_TotalSeg_muscles",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg_muscles",
+      "role": "non_competitor",
+      "num_classes": 12
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0586.npz",
+      "rel_path": "CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0586.npz",
+      "dataset": "CT_TotalSeg_muscles",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg_muscles",
+      "role": "non_competitor",
+      "num_classes": 15
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0601.npz",
+      "rel_path": "CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0601.npz",
+      "dataset": "CT_TotalSeg_muscles",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg_muscles",
+      "role": "non_competitor",
+      "num_classes": 15
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0620.npz",
+      "rel_path": "CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0620.npz",
+      "dataset": "CT_TotalSeg_muscles",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg_muscles",
+      "role": "non_competitor",
+      "num_classes": 17
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0646.npz",
+      "rel_path": "CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0646.npz",
+      "dataset": "CT_TotalSeg_muscles",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg_muscles",
+      "role": "non_competitor",
+      "num_classes": 15
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0659.npz",
+      "rel_path": "CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0659.npz",
+      "dataset": "CT_TotalSeg_muscles",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg_muscles",
+      "role": "non_competitor",
+      "num_classes": 9
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0754.npz",
+      "rel_path": "CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0754.npz",
+      "dataset": "CT_TotalSeg_muscles",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg_muscles",
+      "role": "non_competitor",
+      "num_classes": 23
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0892.npz",
+      "rel_path": "CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s0892.npz",
+      "dataset": "CT_TotalSeg_muscles",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg_muscles",
+      "role": "non_competitor",
+      "num_classes": 12
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s1103.npz",
+      "rel_path": "CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s1103.npz",
+      "dataset": "CT_TotalSeg_muscles",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg_muscles",
+      "role": "non_competitor",
+      "num_classes": 15
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s1280.npz",
+      "rel_path": "CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s1280.npz",
+      "dataset": "CT_TotalSeg_muscles",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg_muscles",
+      "role": "non_competitor",
+      "num_classes": 5
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s1312.npz",
+      "rel_path": "CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s1312.npz",
+      "dataset": "CT_TotalSeg_muscles",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg_muscles",
+      "role": "non_competitor",
+      "num_classes": 5
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s1383.npz",
+      "rel_path": "CT/CT_TotalSeg_muscles/CT_TotalSeg_muscles_s1383.npz",
+      "dataset": "CT_TotalSeg_muscles",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg_muscles",
+      "role": "non_competitor",
+      "num_classes": 15
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Lungs/CT_LungMasks_LUNG1-034.npz",
+      "rel_path": "CT/CT_Lungs/CT_LungMasks_LUNG1-034.npz",
+      "dataset": "CT_Lungs",
+      "modality": "CT",
+      "ds_key": "CT/CT_Lungs",
+      "role": "non_competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Lungs/CT_LungMasks_LUNG1-038.npz",
+      "rel_path": "CT/CT_Lungs/CT_LungMasks_LUNG1-038.npz",
+      "dataset": "CT_Lungs",
+      "modality": "CT",
+      "ds_key": "CT/CT_Lungs",
+      "role": "non_competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Lungs/CT_LungMasks_LUNG1-060.npz",
+      "rel_path": "CT/CT_Lungs/CT_LungMasks_LUNG1-060.npz",
+      "dataset": "CT_Lungs",
+      "modality": "CT",
+      "ds_key": "CT/CT_Lungs",
+      "role": "non_competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Lungs/CT_LungMasks_LUNG1-218.npz",
+      "rel_path": "CT/CT_Lungs/CT_LungMasks_LUNG1-218.npz",
+      "dataset": "CT_Lungs",
+      "modality": "CT",
+      "ds_key": "CT/CT_Lungs",
+      "role": "non_competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Lungs/CT_LungMasks_LUNG1-244.npz",
+      "rel_path": "CT/CT_Lungs/CT_LungMasks_LUNG1-244.npz",
+      "dataset": "CT_Lungs",
+      "modality": "CT",
+      "ds_key": "CT/CT_Lungs",
+      "role": "non_competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Lungs/CT_LungMasks_LUNG1-249.npz",
+      "rel_path": "CT/CT_Lungs/CT_LungMasks_LUNG1-249.npz",
+      "dataset": "CT_Lungs",
+      "modality": "CT",
+      "ds_key": "CT/CT_Lungs",
+      "role": "non_competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Lungs/CT_LungMasks_LUNG1-257.npz",
+      "rel_path": "CT/CT_Lungs/CT_LungMasks_LUNG1-257.npz",
+      "dataset": "CT_Lungs",
+      "modality": "CT",
+      "ds_key": "CT/CT_Lungs",
+      "role": "non_competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Lungs/CT_LungMasks_LUNG1-261.npz",
+      "rel_path": "CT/CT_Lungs/CT_LungMasks_LUNG1-261.npz",
+      "dataset": "CT_Lungs",
+      "modality": "CT",
+      "ds_key": "CT/CT_Lungs",
+      "role": "non_competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Lungs/CT_LungMasks_LUNG1-283.npz",
+      "rel_path": "CT/CT_Lungs/CT_LungMasks_LUNG1-283.npz",
+      "dataset": "CT_Lungs",
+      "modality": "CT",
+      "ds_key": "CT/CT_Lungs",
+      "role": "non_competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Lungs/CT_LungMasks_LUNG1-385.npz",
+      "rel_path": "CT/CT_Lungs/CT_LungMasks_LUNG1-385.npz",
+      "dataset": "CT_Lungs",
+      "modality": "CT",
+      "ds_key": "CT/CT_Lungs",
+      "role": "non_competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Lungs/CT_LungMasks_LUNG1-389.npz",
+      "rel_path": "CT/CT_Lungs/CT_LungMasks_LUNG1-389.npz",
+      "dataset": "CT_Lungs",
+      "modality": "CT",
+      "ds_key": "CT/CT_Lungs",
+      "role": "non_competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Lungs/CT_LungMasks_LUNG1-392.npz",
+      "rel_path": "CT/CT_Lungs/CT_LungMasks_LUNG1-392.npz",
+      "dataset": "CT_Lungs",
+      "modality": "CT",
+      "ds_key": "CT/CT_Lungs",
+      "role": "non_competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Lungs/CT_LungMasks_LUNG1-400.npz",
+      "rel_path": "CT/CT_Lungs/CT_LungMasks_LUNG1-400.npz",
+      "dataset": "CT_Lungs",
+      "modality": "CT",
+      "ds_key": "CT/CT_Lungs",
+      "role": "non_competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Lungs/CT_LungMasks_lung_020.npz",
+      "rel_path": "CT/CT_Lungs/CT_LungMasks_lung_020.npz",
+      "dataset": "CT_Lungs",
+      "modality": "CT",
+      "ds_key": "CT/CT_Lungs",
+      "role": "non_competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_Lungs/CT_LungMasks_lung_022.npz",
+      "rel_path": "CT/CT_Lungs/CT_LungMasks_lung_022.npz",
+      "dataset": "CT_Lungs",
+      "modality": "CT",
+      "ds_key": "CT/CT_Lungs",
+      "role": "non_competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0201.npz",
+      "rel_path": "CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0201.npz",
+      "dataset": "CT_TotalSeg-vertebrae",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg-vertebrae",
+      "role": "non_competitor",
+      "num_classes": 9
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0320.npz",
+      "rel_path": "CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0320.npz",
+      "dataset": "CT_TotalSeg-vertebrae",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg-vertebrae",
+      "role": "non_competitor",
+      "num_classes": 10
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0393.npz",
+      "rel_path": "CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0393.npz",
+      "dataset": "CT_TotalSeg-vertebrae",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg-vertebrae",
+      "role": "non_competitor",
+      "num_classes": 15
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0500.npz",
+      "rel_path": "CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0500.npz",
+      "dataset": "CT_TotalSeg-vertebrae",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg-vertebrae",
+      "role": "non_competitor",
+      "num_classes": 14
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0513.npz",
+      "rel_path": "CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0513.npz",
+      "dataset": "CT_TotalSeg-vertebrae",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg-vertebrae",
+      "role": "non_competitor",
+      "num_classes": 15
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0517.npz",
+      "rel_path": "CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0517.npz",
+      "dataset": "CT_TotalSeg-vertebrae",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg-vertebrae",
+      "role": "non_competitor",
+      "num_classes": 14
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0651.npz",
+      "rel_path": "CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0651.npz",
+      "dataset": "CT_TotalSeg-vertebrae",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg-vertebrae",
+      "role": "non_competitor",
+      "num_classes": 10
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0654.npz",
+      "rel_path": "CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0654.npz",
+      "dataset": "CT_TotalSeg-vertebrae",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg-vertebrae",
+      "role": "non_competitor",
+      "num_classes": 14
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0714.npz",
+      "rel_path": "CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0714.npz",
+      "dataset": "CT_TotalSeg-vertebrae",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg-vertebrae",
+      "role": "non_competitor",
+      "num_classes": 15
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0904.npz",
+      "rel_path": "CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s0904.npz",
+      "dataset": "CT_TotalSeg-vertebrae",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg-vertebrae",
+      "role": "non_competitor",
+      "num_classes": 23
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s1144.npz",
+      "rel_path": "CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s1144.npz",
+      "dataset": "CT_TotalSeg-vertebrae",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg-vertebrae",
+      "role": "non_competitor",
+      "num_classes": 16
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s1208.npz",
+      "rel_path": "CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s1208.npz",
+      "dataset": "CT_TotalSeg-vertebrae",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg-vertebrae",
+      "role": "non_competitor",
+      "num_classes": 24
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s1228.npz",
+      "rel_path": "CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s1228.npz",
+      "dataset": "CT_TotalSeg-vertebrae",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg-vertebrae",
+      "role": "non_competitor",
+      "num_classes": 21
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s1267.npz",
+      "rel_path": "CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s1267.npz",
+      "dataset": "CT_TotalSeg-vertebrae",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg-vertebrae",
+      "role": "non_competitor",
+      "num_classes": 21
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s1420.npz",
+      "rel_path": "CT/CT_TotalSeg-vertebrae/CT_totalseg-vertebrae_s1420.npz",
+      "dataset": "CT_TotalSeg-vertebrae",
+      "modality": "CT",
+      "ds_key": "CT/CT_TotalSeg-vertebrae",
+      "role": "non_competitor",
+      "num_classes": 17
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_000_nuclei.npz",
+      "rel_path": "Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_000_nuclei.npz",
+      "dataset": "Microscopy_nucmm",
+      "modality": "Microscopy",
+      "ds_key": "Microscopy/Microscopy_nucmm",
+      "role": "non_competitor",
+      "num_classes": 57
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_003_nuclei.npz",
+      "rel_path": "Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_003_nuclei.npz",
+      "dataset": "Microscopy_nucmm",
+      "modality": "Microscopy",
+      "ds_key": "Microscopy/Microscopy_nucmm",
+      "role": "non_competitor",
+      "num_classes": 237
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_005_nuclei.npz",
+      "rel_path": "Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_005_nuclei.npz",
+      "dataset": "Microscopy_nucmm",
+      "modality": "Microscopy",
+      "ds_key": "Microscopy/Microscopy_nucmm",
+      "role": "non_competitor",
+      "num_classes": 19
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_006_nuclei.npz",
+      "rel_path": "Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_006_nuclei.npz",
+      "dataset": "Microscopy_nucmm",
+      "modality": "Microscopy",
+      "ds_key": "Microscopy/Microscopy_nucmm",
+      "role": "non_competitor",
+      "num_classes": 224
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_010_nuclei.npz",
+      "rel_path": "Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_010_nuclei.npz",
+      "dataset": "Microscopy_nucmm",
+      "modality": "Microscopy",
+      "ds_key": "Microscopy/Microscopy_nucmm",
+      "role": "non_competitor",
+      "num_classes": 213
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_016_nuclei.npz",
+      "rel_path": "Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_016_nuclei.npz",
+      "dataset": "Microscopy_nucmm",
+      "modality": "Microscopy",
+      "ds_key": "Microscopy/Microscopy_nucmm",
+      "role": "non_competitor",
+      "num_classes": 192
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_029_nuclei.npz",
+      "rel_path": "Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_029_nuclei.npz",
+      "dataset": "Microscopy_nucmm",
+      "modality": "Microscopy",
+      "ds_key": "Microscopy/Microscopy_nucmm",
+      "role": "non_competitor",
+      "num_classes": 117
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_038_nuclei.npz",
+      "rel_path": "Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_038_nuclei.npz",
+      "dataset": "Microscopy_nucmm",
+      "modality": "Microscopy",
+      "ds_key": "Microscopy/Microscopy_nucmm",
+      "role": "non_competitor",
+      "num_classes": 183
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_039_nuclei.npz",
+      "rel_path": "Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_039_nuclei.npz",
+      "dataset": "Microscopy_nucmm",
+      "modality": "Microscopy",
+      "ds_key": "Microscopy/Microscopy_nucmm",
+      "role": "non_competitor",
+      "num_classes": 146
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_045_nuclei.npz",
+      "rel_path": "Microscopy/Microscopy_nucmm/Microscopy_nnuncmm_045_nuclei.npz",
+      "dataset": "Microscopy_nucmm",
+      "modality": "Microscopy",
+      "ds_key": "Microscopy/Microscopy_nucmm",
+      "role": "non_competitor",
+      "num_classes": 93
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_MUCIC-HL60/Microscopy_MUCIC-HL60_C00_image_0000.npz",
+      "rel_path": "Microscopy/Microscopy_MUCIC-HL60/Microscopy_MUCIC-HL60_C00_image_0000.npz",
+      "dataset": "Microscopy_MUCIC-HL60",
+      "modality": "Microscopy",
+      "ds_key": "Microscopy/Microscopy_MUCIC-HL60",
+      "role": "non_competitor",
+      "num_classes": 20
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_MUCIC-HL60/Microscopy_MUCIC-HL60_C00_image_0007.npz",
+      "rel_path": "Microscopy/Microscopy_MUCIC-HL60/Microscopy_MUCIC-HL60_C00_image_0007.npz",
+      "dataset": "Microscopy_MUCIC-HL60",
+      "modality": "Microscopy",
+      "ds_key": "Microscopy/Microscopy_MUCIC-HL60",
+      "role": "non_competitor",
+      "num_classes": 20
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_MUCIC-HL60/Microscopy_MUCIC-HL60_C00_image_0021.npz",
+      "rel_path": "Microscopy/Microscopy_MUCIC-HL60/Microscopy_MUCIC-HL60_C00_image_0021.npz",
+      "dataset": "Microscopy_MUCIC-HL60",
+      "modality": "Microscopy",
+      "ds_key": "Microscopy/Microscopy_MUCIC-HL60",
+      "role": "non_competitor",
+      "num_classes": 20
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_MUCIC-HL60/Microscopy_MUCIC-HL60_C00_image_0027.npz",
+      "rel_path": "Microscopy/Microscopy_MUCIC-HL60/Microscopy_MUCIC-HL60_C00_image_0027.npz",
+      "dataset": "Microscopy_MUCIC-HL60",
+      "modality": "Microscopy",
+      "ds_key": "Microscopy/Microscopy_MUCIC-HL60",
+      "role": "non_competitor",
+      "num_classes": 20
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_MUCIC-HL60/Microscopy_MUCIC-HL60_C25_image_0018.npz",
+      "rel_path": "Microscopy/Microscopy_MUCIC-HL60/Microscopy_MUCIC-HL60_C25_image_0018.npz",
+      "dataset": "Microscopy_MUCIC-HL60",
+      "modality": "Microscopy",
+      "ds_key": "Microscopy/Microscopy_MUCIC-HL60",
+      "role": "non_competitor",
+      "num_classes": 20
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_MUCIC-HL60/Microscopy_MUCIC-HL60_C25_image_0021.npz",
+      "rel_path": "Microscopy/Microscopy_MUCIC-HL60/Microscopy_MUCIC-HL60_C25_image_0021.npz",
+      "dataset": "Microscopy_MUCIC-HL60",
+      "modality": "Microscopy",
+      "ds_key": "Microscopy/Microscopy_MUCIC-HL60",
+      "role": "non_competitor",
+      "num_classes": 20
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_MUCIC-HL60/Microscopy_MUCIC-HL60_C50_image_0001.npz",
+      "rel_path": "Microscopy/Microscopy_MUCIC-HL60/Microscopy_MUCIC-HL60_C50_image_0001.npz",
+      "dataset": "Microscopy_MUCIC-HL60",
+      "modality": "Microscopy",
+      "ds_key": "Microscopy/Microscopy_MUCIC-HL60",
+      "role": "non_competitor",
+      "num_classes": 20
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_MUCIC-HL60/Microscopy_MUCIC-HL60_C50_image_0002.npz",
+      "rel_path": "Microscopy/Microscopy_MUCIC-HL60/Microscopy_MUCIC-HL60_C50_image_0002.npz",
+      "dataset": "Microscopy_MUCIC-HL60",
+      "modality": "Microscopy",
+      "ds_key": "Microscopy/Microscopy_MUCIC-HL60",
+      "role": "non_competitor",
+      "num_classes": 20
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_MUCIC-HL60/Microscopy_MUCIC-HL60_C75_image_0020.npz",
+      "rel_path": "Microscopy/Microscopy_MUCIC-HL60/Microscopy_MUCIC-HL60_C75_image_0020.npz",
+      "dataset": "Microscopy_MUCIC-HL60",
+      "modality": "Microscopy",
+      "ds_key": "Microscopy/Microscopy_MUCIC-HL60",
+      "role": "non_competitor",
+      "num_classes": 20
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_MUCIC-HL60/Microscopy_MUCIC-HL60_C75_image_0025.npz",
+      "rel_path": "Microscopy/Microscopy_MUCIC-HL60/Microscopy_MUCIC-HL60_C75_image_0025.npz",
+      "dataset": "Microscopy_MUCIC-HL60",
+      "modality": "Microscopy",
+      "ds_key": "Microscopy/Microscopy_MUCIC-HL60",
+      "role": "non_competitor",
+      "num_classes": 20
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Amsterdam_GE3T_130.npz",
+      "rel_path": "MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Amsterdam_GE3T_130.npz",
+      "dataset": "MR_WMH_FLAIR",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_WMH_FLAIR",
+      "role": "non_competitor",
+      "num_classes": 12
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Amsterdam_GE3T_142.npz",
+      "rel_path": "MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Amsterdam_GE3T_142.npz",
+      "dataset": "MR_WMH_FLAIR",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_WMH_FLAIR",
+      "role": "non_competitor",
+      "num_classes": 11
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Singapore_53.npz",
+      "rel_path": "MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Singapore_53.npz",
+      "dataset": "MR_WMH_FLAIR",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_WMH_FLAIR",
+      "role": "non_competitor",
+      "num_classes": 8
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Singapore_60.npz",
+      "rel_path": "MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Singapore_60.npz",
+      "dataset": "MR_WMH_FLAIR",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_WMH_FLAIR",
+      "role": "non_competitor",
+      "num_classes": 12
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Singapore_62.npz",
+      "rel_path": "MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Singapore_62.npz",
+      "dataset": "MR_WMH_FLAIR",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_WMH_FLAIR",
+      "role": "non_competitor",
+      "num_classes": 22
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Singapore_88.npz",
+      "rel_path": "MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Singapore_88.npz",
+      "dataset": "MR_WMH_FLAIR",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_WMH_FLAIR",
+      "role": "non_competitor",
+      "num_classes": 28
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Singapore_97.npz",
+      "rel_path": "MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Singapore_97.npz",
+      "dataset": "MR_WMH_FLAIR",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_WMH_FLAIR",
+      "role": "non_competitor",
+      "num_classes": 18
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Utrecht_13.npz",
+      "rel_path": "MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Utrecht_13.npz",
+      "dataset": "MR_WMH_FLAIR",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_WMH_FLAIR",
+      "role": "non_competitor",
+      "num_classes": 21
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Utrecht_23.npz",
+      "rel_path": "MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Utrecht_23.npz",
+      "dataset": "MR_WMH_FLAIR",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_WMH_FLAIR",
+      "role": "non_competitor",
+      "num_classes": 7
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Utrecht_41.npz",
+      "rel_path": "MRI/MR_WMH_FLAIR/MR_WMH_FLAIR_Utrecht_41.npz",
+      "dataset": "MR_WMH_FLAIR",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_WMH_FLAIR",
+      "role": "non_competitor",
+      "num_classes": 17
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Amsterdam_GE3T_103.npz",
+      "rel_path": "MRI/MR_WMH_T1/MR_WMH_T1_Amsterdam_GE3T_103.npz",
+      "dataset": "MR_WMH_T1",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_WMH_T1",
+      "role": "non_competitor",
+      "num_classes": 13
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Amsterdam_GE3T_105.npz",
+      "rel_path": "MRI/MR_WMH_T1/MR_WMH_T1_Amsterdam_GE3T_105.npz",
+      "dataset": "MR_WMH_T1",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_WMH_T1",
+      "role": "non_competitor",
+      "num_classes": 16
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Amsterdam_GE3T_106.npz",
+      "rel_path": "MRI/MR_WMH_T1/MR_WMH_T1_Amsterdam_GE3T_106.npz",
+      "dataset": "MR_WMH_T1",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_WMH_T1",
+      "role": "non_competitor",
+      "num_classes": 5
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Amsterdam_Philips_VU_PETMR_01_160.npz",
+      "rel_path": "MRI/MR_WMH_T1/MR_WMH_T1_Amsterdam_Philips_VU_PETMR_01_160.npz",
+      "dataset": "MR_WMH_T1",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_WMH_T1",
+      "role": "non_competitor",
+      "num_classes": 33
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Singapore_69.npz",
+      "rel_path": "MRI/MR_WMH_T1/MR_WMH_T1_Singapore_69.npz",
+      "dataset": "MR_WMH_T1",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_WMH_T1",
+      "role": "non_competitor",
+      "num_classes": 15
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Utrecht_22.npz",
+      "rel_path": "MRI/MR_WMH_T1/MR_WMH_T1_Utrecht_22.npz",
+      "dataset": "MR_WMH_T1",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_WMH_T1",
+      "role": "non_competitor",
+      "num_classes": 15
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Utrecht_28.npz",
+      "rel_path": "MRI/MR_WMH_T1/MR_WMH_T1_Utrecht_28.npz",
+      "dataset": "MR_WMH_T1",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_WMH_T1",
+      "role": "non_competitor",
+      "num_classes": 15
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Utrecht_39.npz",
+      "rel_path": "MRI/MR_WMH_T1/MR_WMH_T1_Utrecht_39.npz",
+      "dataset": "MR_WMH_T1",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_WMH_T1",
+      "role": "non_competitor",
+      "num_classes": 24
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Utrecht_5.npz",
+      "rel_path": "MRI/MR_WMH_T1/MR_WMH_T1_Utrecht_5.npz",
+      "dataset": "MR_WMH_T1",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_WMH_T1",
+      "role": "non_competitor",
+      "num_classes": 5
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/MRI/MR_WMH_T1/MR_WMH_T1_Utrecht_6.npz",
+      "rel_path": "MRI/MR_WMH_T1/MR_WMH_T1_Utrecht_6.npz",
+      "dataset": "MR_WMH_T1",
+      "modality": "MRI",
+      "ds_key": "MRI/MR_WMH_T1",
+      "role": "non_competitor",
+      "num_classes": 6
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_000104_02_01_057-078.npz",
+      "rel_path": "CT/CT_DeepLesion/CT_DeepLesion_000104_02_01_057-078.npz",
+      "dataset": "CT_DeepLesion",
+      "modality": "CT",
+      "ds_key": "CT/CT_DeepLesion",
+      "role": "non_competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_000122_04_01_052-075.npz",
+      "rel_path": "CT/CT_DeepLesion/CT_DeepLesion_000122_04_01_052-075.npz",
+      "dataset": "CT_DeepLesion",
+      "modality": "CT",
+      "ds_key": "CT/CT_DeepLesion",
+      "role": "non_competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_000125_02_01_046-071.npz",
+      "rel_path": "CT/CT_DeepLesion/CT_DeepLesion_000125_02_01_046-071.npz",
+      "dataset": "CT_DeepLesion",
+      "modality": "CT",
+      "ds_key": "CT/CT_DeepLesion",
+      "role": "non_competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_000155_04_01_050-077.npz",
+      "rel_path": "CT/CT_DeepLesion/CT_DeepLesion_000155_04_01_050-077.npz",
+      "dataset": "CT_DeepLesion",
+      "modality": "CT",
+      "ds_key": "CT/CT_DeepLesion",
+      "role": "non_competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_000204_07_01_040-062.npz",
+      "rel_path": "CT/CT_DeepLesion/CT_DeepLesion_000204_07_01_040-062.npz",
+      "dataset": "CT_DeepLesion",
+      "modality": "CT",
+      "ds_key": "CT/CT_DeepLesion",
+      "role": "non_competitor",
+      "num_classes": 4
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_000245_02_01_026-059.npz",
+      "rel_path": "CT/CT_DeepLesion/CT_DeepLesion_000245_02_01_026-059.npz",
+      "dataset": "CT_DeepLesion",
+      "modality": "CT",
+      "ds_key": "CT/CT_DeepLesion",
+      "role": "non_competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_000280_03_02_276-382.npz",
+      "rel_path": "CT/CT_DeepLesion/CT_DeepLesion_000280_03_02_276-382.npz",
+      "dataset": "CT_DeepLesion",
+      "modality": "CT",
+      "ds_key": "CT/CT_DeepLesion",
+      "role": "non_competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_000376_08_01_051-092.npz",
+      "rel_path": "CT/CT_DeepLesion/CT_DeepLesion_000376_08_01_051-092.npz",
+      "dataset": "CT_DeepLesion",
+      "modality": "CT",
+      "ds_key": "CT/CT_DeepLesion",
+      "role": "non_competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_000388_11_01_049-073.npz",
+      "rel_path": "CT/CT_DeepLesion/CT_DeepLesion_000388_11_01_049-073.npz",
+      "dataset": "CT_DeepLesion",
+      "modality": "CT",
+      "ds_key": "CT/CT_DeepLesion",
+      "role": "non_competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_000909_06_01_044-067.npz",
+      "rel_path": "CT/CT_DeepLesion/CT_DeepLesion_000909_06_01_044-067.npz",
+      "dataset": "CT_DeepLesion",
+      "modality": "CT",
+      "ds_key": "CT/CT_DeepLesion",
+      "role": "non_competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_001229_02_01_090-111.npz",
+      "rel_path": "CT/CT_DeepLesion/CT_DeepLesion_001229_02_01_090-111.npz",
+      "dataset": "CT_DeepLesion",
+      "modality": "CT",
+      "ds_key": "CT/CT_DeepLesion",
+      "role": "non_competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_001320_02_01_045-067.npz",
+      "rel_path": "CT/CT_DeepLesion/CT_DeepLesion_001320_02_01_045-067.npz",
+      "dataset": "CT_DeepLesion",
+      "modality": "CT",
+      "ds_key": "CT/CT_DeepLesion",
+      "role": "non_competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_001442_02_01_037-062.npz",
+      "rel_path": "CT/CT_DeepLesion/CT_DeepLesion_001442_02_01_037-062.npz",
+      "dataset": "CT_DeepLesion",
+      "modality": "CT",
+      "ds_key": "CT/CT_DeepLesion",
+      "role": "non_competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_001538_06_01_049-068.npz",
+      "rel_path": "CT/CT_DeepLesion/CT_DeepLesion_001538_06_01_049-068.npz",
+      "dataset": "CT_DeepLesion",
+      "modality": "CT",
+      "ds_key": "CT/CT_DeepLesion",
+      "role": "non_competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_DeepLesion/CT_DeepLesion_001806_02_02_033-055.npz",
+      "rel_path": "CT/CT_DeepLesion/CT_DeepLesion_001806_02_02_033-055.npz",
+      "dataset": "CT_DeepLesion",
+      "modality": "CT",
+      "ds_key": "CT/CT_DeepLesion",
+      "role": "non_competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_vessel/Microscopy_SELMA3D_patchvolume_vessel_001.npz",
+      "rel_path": "Microscopy/Microscopy_SELMA3D_vessel/Microscopy_SELMA3D_patchvolume_vessel_001.npz",
+      "dataset": "Microscopy_SELMA3D_vessel",
+      "modality": "Microscopy",
+      "ds_key": "Microscopy/Microscopy_SELMA3D_vessel",
+      "role": "non_competitor",
+      "num_classes": 255
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_vessel/Microscopy_SELMA3D_patchvolume_vessel_002.npz",
+      "rel_path": "Microscopy/Microscopy_SELMA3D_vessel/Microscopy_SELMA3D_patchvolume_vessel_002.npz",
+      "dataset": "Microscopy_SELMA3D_vessel",
+      "modality": "Microscopy",
+      "ds_key": "Microscopy/Microscopy_SELMA3D_vessel",
+      "role": "non_competitor",
+      "num_classes": 255
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_vessel/Microscopy_SELMA3D_patchvolume_vessel_003.npz",
+      "rel_path": "Microscopy/Microscopy_SELMA3D_vessel/Microscopy_SELMA3D_patchvolume_vessel_003.npz",
+      "dataset": "Microscopy_SELMA3D_vessel",
+      "modality": "Microscopy",
+      "ds_key": "Microscopy/Microscopy_SELMA3D_vessel",
+      "role": "non_competitor",
+      "num_classes": 250
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_vessel/Microscopy_SELMA3D_patchvolume_vessel_004.npz",
+      "rel_path": "Microscopy/Microscopy_SELMA3D_vessel/Microscopy_SELMA3D_patchvolume_vessel_004.npz",
+      "dataset": "Microscopy_SELMA3D_vessel",
+      "modality": "Microscopy",
+      "ds_key": "Microscopy/Microscopy_SELMA3D_vessel",
+      "role": "non_competitor",
+      "num_classes": 255
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_vessel/Microscopy_SELMA3D_patchvolume_vessel_012.npz",
+      "rel_path": "Microscopy/Microscopy_SELMA3D_vessel/Microscopy_SELMA3D_patchvolume_vessel_012.npz",
+      "dataset": "Microscopy_SELMA3D_vessel",
+      "modality": "Microscopy",
+      "ds_key": "Microscopy/Microscopy_SELMA3D_vessel",
+      "role": "non_competitor",
+      "num_classes": 245
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_vessel/Microscopy_SELMA3D_patchvolume_vessel_015.npz",
+      "rel_path": "Microscopy/Microscopy_SELMA3D_vessel/Microscopy_SELMA3D_patchvolume_vessel_015.npz",
+      "dataset": "Microscopy_SELMA3D_vessel",
+      "modality": "Microscopy",
+      "ds_key": "Microscopy/Microscopy_SELMA3D_vessel",
+      "role": "non_competitor",
+      "num_classes": 251
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_vessel/Microscopy_SELMA3D_patchvolume_vessel_016.npz",
+      "rel_path": "Microscopy/Microscopy_SELMA3D_vessel/Microscopy_SELMA3D_patchvolume_vessel_016.npz",
+      "dataset": "Microscopy_SELMA3D_vessel",
+      "modality": "Microscopy",
+      "ds_key": "Microscopy/Microscopy_SELMA3D_vessel",
+      "role": "non_competitor",
+      "num_classes": 194
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_vessel/Microscopy_SELMA3D_patchvolume_vessel_017.npz",
+      "rel_path": "Microscopy/Microscopy_SELMA3D_vessel/Microscopy_SELMA3D_patchvolume_vessel_017.npz",
+      "dataset": "Microscopy_SELMA3D_vessel",
+      "modality": "Microscopy",
+      "ds_key": "Microscopy/Microscopy_SELMA3D_vessel",
+      "role": "non_competitor",
+      "num_classes": 233
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_vessel/Microscopy_SELMA3D_patchvolume_vessel_021.npz",
+      "rel_path": "Microscopy/Microscopy_SELMA3D_vessel/Microscopy_SELMA3D_patchvolume_vessel_021.npz",
+      "dataset": "Microscopy_SELMA3D_vessel",
+      "modality": "Microscopy",
+      "ds_key": "Microscopy/Microscopy_SELMA3D_vessel",
+      "role": "non_competitor",
+      "num_classes": 121
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/Microscopy/Microscopy_SELMA3D_vessel/Microscopy_SELMA3D_patchvolume_vessel_022.npz",
+      "rel_path": "Microscopy/Microscopy_SELMA3D_vessel/Microscopy_SELMA3D_patchvolume_vessel_022.npz",
+      "dataset": "Microscopy_SELMA3D_vessel",
+      "modality": "Microscopy",
+      "ds_key": "Microscopy/Microscopy_SELMA3D_vessel",
+      "role": "non_competitor",
+      "num_classes": 165
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LungLesion/CT_LIDC-IDRI_LIDC-IDRI-0834_0000.npz",
+      "rel_path": "CT/CT_LungLesion/CT_LIDC-IDRI_LIDC-IDRI-0834_0000.npz",
+      "dataset": "CT_LungLesion",
+      "modality": "CT",
+      "ds_key": "CT/CT_LungLesion",
+      "role": "non_competitor",
+      "num_classes": 2
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LungLesion/CT_LungLesions_LUNG1-093.npz",
+      "rel_path": "CT/CT_LungLesion/CT_LungLesions_LUNG1-093.npz",
+      "dataset": "CT_LungLesion",
+      "modality": "CT",
+      "ds_key": "CT/CT_LungLesion",
+      "role": "non_competitor",
+      "num_classes": 5
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LungLesion/CT_LungLesions_LUNG1-117.npz",
+      "rel_path": "CT/CT_LungLesion/CT_LungLesions_LUNG1-117.npz",
+      "dataset": "CT_LungLesion",
+      "modality": "CT",
+      "ds_key": "CT/CT_LungLesion",
+      "role": "non_competitor",
+      "num_classes": 4
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LungLesion/CT_LungLesions_LUNG1-195.npz",
+      "rel_path": "CT/CT_LungLesion/CT_LungLesions_LUNG1-195.npz",
+      "dataset": "CT_LungLesion",
+      "modality": "CT",
+      "ds_key": "CT/CT_LungLesion",
+      "role": "non_competitor",
+      "num_classes": 3
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_train_npz_all/CT/CT_LungLesion/CT_LungLesions_LUNG1-314.npz",
+      "rel_path": "CT/CT_LungLesion/CT_LungLesions_LUNG1-314.npz",
+      "dataset": "CT_LungLesion",
+      "modality": "CT",
+      "ds_key": "CT/CT_LungLesion",
+      "role": "non_competitor",
+      "num_classes": 2
+    }
+  ]
+}

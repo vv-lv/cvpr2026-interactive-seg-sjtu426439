@@ -1,0 +1,2294 @@
+{
+  "description": "Expanded eval set without US_Low-limb (176 cases)",
+  "n_cases": 176,
+  "files": [
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_AMOS_amos_0301.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_AMOS_amos_0301.npz",
+      "dataset": "CT_AMOS",
+      "has_bbox": true,
+      "n_labels": 15,
+      "shape": [
+        151,
+        512,
+        512
+      ],
+      "n_voxels": 39583744
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_AMOS_amos_0043.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_AMOS_amos_0043.npz",
+      "dataset": "CT_AMOS",
+      "has_bbox": true,
+      "n_labels": 15,
+      "shape": [
+        46,
+        512,
+        512
+      ],
+      "n_voxels": 12058624
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_AMOS_amos_0018.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_AMOS_amos_0018.npz",
+      "dataset": "CT_AMOS",
+      "has_bbox": true,
+      "n_labels": 15,
+      "shape": [
+        63,
+        512,
+        512
+      ],
+      "n_voxels": 16515072
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_AMOS_amos_0364.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_AMOS_amos_0364.npz",
+      "dataset": "CT_AMOS",
+      "has_bbox": true,
+      "n_labels": 15,
+      "shape": [
+        79,
+        768,
+        768
+      ],
+      "n_voxels": 46596096
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_AMOS_amos_0088.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_AMOS_amos_0088.npz",
+      "dataset": "CT_AMOS",
+      "has_bbox": true,
+      "n_labels": 15,
+      "shape": [
+        43,
+        512,
+        512
+      ],
+      "n_voxels": 11272192
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_AbdTumor_case_00108.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_AbdTumor_case_00108.npz",
+      "dataset": "CT_AbdTumor",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        19,
+        512,
+        512
+      ],
+      "n_voxels": 4980736
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_AbdTumor_case_00039.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_AbdTumor_case_00039.npz",
+      "dataset": "CT_AbdTumor",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        5,
+        512,
+        512
+      ],
+      "n_voxels": 1310720
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_AbdTumor_PETCT_97320b0b58.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_AbdTumor_PETCT_97320b0b58.npz",
+      "dataset": "CT_AbdTumor",
+      "has_bbox": true,
+      "n_labels": 14,
+      "shape": [
+        92,
+        512,
+        512
+      ],
+      "n_voxels": 24117248
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_AbdTumor_pancreas_402.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_AbdTumor_pancreas_402.npz",
+      "dataset": "CT_AbdTumor",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        5,
+        512,
+        512
+      ],
+      "n_voxels": 1310720
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_AbdTumor_PETCT_5255c79083.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_AbdTumor_PETCT_5255c79083.npz",
+      "dataset": "CT_AbdTumor",
+      "has_bbox": true,
+      "n_labels": 9,
+      "shape": [
+        144,
+        512,
+        512
+      ],
+      "n_voxels": 37748736
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_AbdomenAtlas_BDMAP_00007413.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_AbdomenAtlas_BDMAP_00007413.npz",
+      "dataset": "CT_AbdomenAtlas",
+      "has_bbox": true,
+      "n_labels": 9,
+      "shape": [
+        286,
+        273,
+        465
+      ],
+      "n_voxels": 36306270
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_AbdomenAtlas_BDMAP_00008267.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_AbdomenAtlas_BDMAP_00008267.npz",
+      "dataset": "CT_AbdomenAtlas",
+      "has_bbox": true,
+      "n_labels": 10,
+      "shape": [
+        583,
+        368,
+        512
+      ],
+      "n_voxels": 109846528
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_AbdomenAtlas_BDMAP_00006066.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_AbdomenAtlas_BDMAP_00006066.npz",
+      "dataset": "CT_AbdomenAtlas",
+      "has_bbox": true,
+      "n_labels": 12,
+      "shape": [
+        143,
+        294,
+        512
+      ],
+      "n_voxels": 21525504
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_AbdomenAtlas_BDMAP_00000915.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_AbdomenAtlas_BDMAP_00000915.npz",
+      "dataset": "CT_AbdomenAtlas",
+      "has_bbox": true,
+      "n_labels": 12,
+      "shape": [
+        113,
+        378,
+        460
+      ],
+      "n_voxels": 19648440
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_AbdomenAtlas_BDMAP_00006609.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_AbdomenAtlas_BDMAP_00006609.npz",
+      "dataset": "CT_AbdomenAtlas",
+      "has_bbox": true,
+      "n_labels": 10,
+      "shape": [
+        541,
+        288,
+        478
+      ],
+      "n_voxels": 74476224
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_AirwayTree_ATM_078.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_AirwayTree_ATM_078.npz",
+      "dataset": "CT_AirwayTree",
+      "has_bbox": false,
+      "n_labels": 1,
+      "shape": [
+        393,
+        512,
+        512
+      ],
+      "n_voxels": 103022592
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_AirwayTree_ATM_010.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_AirwayTree_ATM_010.npz",
+      "dataset": "CT_AirwayTree",
+      "has_bbox": false,
+      "n_labels": 1,
+      "shape": [
+        546,
+        512,
+        512
+      ],
+      "n_voxels": 143130624
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_AirwayTree_ATM_005.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_AirwayTree_ATM_005.npz",
+      "dataset": "CT_AirwayTree",
+      "has_bbox": false,
+      "n_labels": 1,
+      "shape": [
+        480,
+        512,
+        512
+      ],
+      "n_voxels": 125829120
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_AirwayTree_ATM_015.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_AirwayTree_ATM_015.npz",
+      "dataset": "CT_AirwayTree",
+      "has_bbox": false,
+      "n_labels": 1,
+      "shape": [
+        392,
+        512,
+        512
+      ],
+      "n_voxels": 102760448
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_AirwayTree_ATM_019.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_AirwayTree_ATM_019.npz",
+      "dataset": "CT_AirwayTree",
+      "has_bbox": false,
+      "n_labels": 1,
+      "shape": [
+        552,
+        512,
+        512
+      ],
+      "n_voxels": 144703488
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_Aorta_AortaD6.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_Aorta_AortaD6.npz",
+      "dataset": "CT_Aorta",
+      "has_bbox": false,
+      "n_labels": 1,
+      "shape": [
+        158,
+        666,
+        512
+      ],
+      "n_voxels": 53876736
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_Aorta_AortaD10.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_Aorta_AortaD10.npz",
+      "dataset": "CT_Aorta",
+      "has_bbox": false,
+      "n_labels": 1,
+      "shape": [
+        191,
+        666,
+        512
+      ],
+      "n_voxels": 65129472
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_Aorta_AortaK12.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_Aorta_AortaK12.npz",
+      "dataset": "CT_Aorta",
+      "has_bbox": false,
+      "n_labels": 1,
+      "shape": [
+        139,
+        512,
+        512
+      ],
+      "n_voxels": 36438016
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_Aorta_AortaR5.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_Aorta_AortaR5.npz",
+      "dataset": "CT_Aorta",
+      "has_bbox": false,
+      "n_labels": 1,
+      "shape": [
+        1102,
+        512,
+        512
+      ],
+      "n_voxels": 288882688
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_Aorta_AortaR9.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_Aorta_AortaR9.npz",
+      "dataset": "CT_Aorta",
+      "has_bbox": false,
+      "n_labels": 1,
+      "shape": [
+        1007,
+        512,
+        512
+      ],
+      "n_voxels": 263979008
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0372.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0372.npz",
+      "dataset": "CT_COVID-19-20-CT-SegChallenge",
+      "has_bbox": true,
+      "n_labels": 29,
+      "shape": [
+        43,
+        512,
+        512
+      ],
+      "n_voxels": 11272192
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0581.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0581.npz",
+      "dataset": "CT_COVID-19-20-CT-SegChallenge",
+      "has_bbox": true,
+      "n_labels": 2,
+      "shape": [
+        16,
+        512,
+        512
+      ],
+      "n_voxels": 4194304
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0382.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0382.npz",
+      "dataset": "CT_COVID-19-20-CT-SegChallenge",
+      "has_bbox": true,
+      "n_labels": 13,
+      "shape": [
+        31,
+        512,
+        512
+      ],
+      "n_voxels": 8126464
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0228.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0228.npz",
+      "dataset": "CT_COVID-19-20-CT-SegChallenge",
+      "has_bbox": true,
+      "n_labels": 33,
+      "shape": [
+        28,
+        512,
+        512
+      ],
+      "n_voxels": 7340032
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0338.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_COVID-19-20-CT-SegChallenge_volume-covid19-A-0338.npz",
+      "dataset": "CT_COVID-19-20-CT-SegChallenge",
+      "has_bbox": true,
+      "n_labels": 5,
+      "shape": [
+        23,
+        512,
+        512
+      ],
+      "n_voxels": 6029312
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_COVID19-CT-Seg-Bench_coronacases_006.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_COVID19-CT-Seg-Bench_coronacases_006.npz",
+      "dataset": "CT_COVID19-CT-Seg-Bench",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        70,
+        512,
+        512
+      ],
+      "n_voxels": 18350080
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_GTVpEnhance_segrap_0043.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_GTVpEnhance_segrap_0043.npz",
+      "dataset": "CT_GTVpEnhance",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        25,
+        512,
+        512
+      ],
+      "n_voxels": 6553600
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_GTVpEnhance_segrap_0039.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_GTVpEnhance_segrap_0039.npz",
+      "dataset": "CT_GTVpEnhance",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        16,
+        512,
+        512
+      ],
+      "n_voxels": 4194304
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_GTVpEnhance_segrap_0021.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_GTVpEnhance_segrap_0021.npz",
+      "dataset": "CT_GTVpEnhance",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        18,
+        512,
+        512
+      ],
+      "n_voxels": 4718592
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_GTVpEnhance_segrap_0034.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_GTVpEnhance_segrap_0034.npz",
+      "dataset": "CT_GTVpEnhance",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        18,
+        512,
+        512
+      ],
+      "n_voxels": 4718592
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_GTVpEnhance_segrap_0103.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_GTVpEnhance_segrap_0103.npz",
+      "dataset": "CT_GTVpEnhance",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        16,
+        512,
+        512
+      ],
+      "n_voxels": 4194304
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_GTVpNCCT_segrap_0022.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_GTVpNCCT_segrap_0022.npz",
+      "dataset": "CT_GTVpNCCT",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        17,
+        512,
+        512
+      ],
+      "n_voxels": 4456448
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_GTVpNCCT_segrap_0119.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_GTVpNCCT_segrap_0119.npz",
+      "dataset": "CT_GTVpNCCT",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        19,
+        512,
+        512
+      ],
+      "n_voxels": 4980736
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_GTVpNCCT_segrap_0100.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_GTVpNCCT_segrap_0100.npz",
+      "dataset": "CT_GTVpNCCT",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        20,
+        512,
+        512
+      ],
+      "n_voxels": 5242880
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_GTVpNCCT_segrap_0020.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_GTVpNCCT_segrap_0020.npz",
+      "dataset": "CT_GTVpNCCT",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        25,
+        512,
+        512
+      ],
+      "n_voxels": 6553600
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_GTVpNCCT_segrap_0028.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_GTVpNCCT_segrap_0028.npz",
+      "dataset": "CT_GTVpNCCT",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        24,
+        512,
+        512
+      ],
+      "n_voxels": 6291456
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_HaN-Seg_case_27.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_HaN-Seg_case_27.npz",
+      "dataset": "CT_HaN-Seg",
+      "has_bbox": true,
+      "n_labels": 29,
+      "shape": [
+        132,
+        1024,
+        1024
+      ],
+      "n_voxels": 138412032
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_HaN-Seg_case_37.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_HaN-Seg_case_37.npz",
+      "dataset": "CT_HaN-Seg",
+      "has_bbox": true,
+      "n_labels": 29,
+      "shape": [
+        101,
+        1024,
+        1024
+      ],
+      "n_voxels": 105906176
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_HaN-Seg_case_14.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_HaN-Seg_case_14.npz",
+      "dataset": "CT_HaN-Seg",
+      "has_bbox": true,
+      "n_labels": 29,
+      "shape": [
+        76,
+        1024,
+        1024
+      ],
+      "n_voxels": 79691776
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_HaN-Seg_case_10.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_HaN-Seg_case_10.npz",
+      "dataset": "CT_HaN-Seg",
+      "has_bbox": true,
+      "n_labels": 29,
+      "shape": [
+        91,
+        1024,
+        1024
+      ],
+      "n_voxels": 95420416
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_LNQ_LymphNode-0967.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_LNQ_LymphNode-0967.npz",
+      "dataset": "CT_LNQ",
+      "has_bbox": true,
+      "n_labels": 2,
+      "shape": [
+        12,
+        512,
+        512
+      ],
+      "n_voxels": 3145728
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_LNQ_LymphNode-0685.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_LNQ_LymphNode-0685.npz",
+      "dataset": "CT_LNQ",
+      "has_bbox": true,
+      "n_labels": 4,
+      "shape": [
+        41,
+        512,
+        512
+      ],
+      "n_voxels": 10747904
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_LNQ_LymphNode-0818.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_LNQ_LymphNode-0818.npz",
+      "dataset": "CT_LNQ",
+      "has_bbox": true,
+      "n_labels": 4,
+      "shape": [
+        39,
+        512,
+        512
+      ],
+      "n_voxels": 10223616
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_LNQ_LymphNode-0064.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_LNQ_LymphNode-0064.npz",
+      "dataset": "CT_LNQ",
+      "has_bbox": true,
+      "n_labels": 2,
+      "shape": [
+        14,
+        512,
+        512
+      ],
+      "n_voxels": 3670016
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_LNQ_LymphNode-0548.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_LNQ_LymphNode-0548.npz",
+      "dataset": "CT_LNQ",
+      "has_bbox": true,
+      "n_labels": 2,
+      "shape": [
+        19,
+        512,
+        512
+      ],
+      "n_voxels": 4980736
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_LungLesions_LUNG1-038.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_LungLesions_LUNG1-038.npz",
+      "dataset": "CT_LungLesions",
+      "has_bbox": true,
+      "n_labels": 2,
+      "shape": [
+        30,
+        512,
+        512
+      ],
+      "n_voxels": 7864320
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_LungLesions_lung_006.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_LungLesions_lung_006.npz",
+      "dataset": "CT_LungLesions",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        40,
+        512,
+        512
+      ],
+      "n_voxels": 10485760
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_LungLesions_LUNG1-060.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_LungLesions_LUNG1-060.npz",
+      "dataset": "CT_LungLesions",
+      "has_bbox": true,
+      "n_labels": 4,
+      "shape": [
+        86,
+        512,
+        512
+      ],
+      "n_voxels": 22544384
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_LungLesions_lung_049.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_LungLesions_lung_049.npz",
+      "dataset": "CT_LungLesions",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        14,
+        512,
+        512
+      ],
+      "n_voxels": 3670016
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_LungLesions_lung_027.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_LungLesions_lung_027.npz",
+      "dataset": "CT_LungLesions",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        28,
+        512,
+        512
+      ],
+      "n_voxels": 7340032
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_LungMasks_LUNG1-297.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_LungMasks_LUNG1-297.npz",
+      "dataset": "CT_LungMasks",
+      "has_bbox": true,
+      "n_labels": 2,
+      "shape": [
+        81,
+        512,
+        512
+      ],
+      "n_voxels": 21233664
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_LungMasks_LUNG1-416.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_LungMasks_LUNG1-416.npz",
+      "dataset": "CT_LungMasks",
+      "has_bbox": true,
+      "n_labels": 2,
+      "shape": [
+        97,
+        512,
+        512
+      ],
+      "n_voxels": 25427968
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_LungMasks_LUNG1-128.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_LungMasks_LUNG1-128.npz",
+      "dataset": "CT_LungMasks",
+      "has_bbox": true,
+      "n_labels": 2,
+      "shape": [
+        74,
+        512,
+        512
+      ],
+      "n_voxels": 19398656
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_LungMasks_lung_059.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_LungMasks_lung_059.npz",
+      "dataset": "CT_LungMasks",
+      "has_bbox": true,
+      "n_labels": 2,
+      "shape": [
+        202,
+        512,
+        512
+      ],
+      "n_voxels": 52953088
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_LungMasks_LUNG1-072.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_LungMasks_LUNG1-072.npz",
+      "dataset": "CT_LungMasks",
+      "has_bbox": true,
+      "n_labels": 2,
+      "shape": [
+        79,
+        512,
+        512
+      ],
+      "n_voxels": 20709376
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_TCIA-LCTSC_LCTSC-Test-S2-103.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_TCIA-LCTSC_LCTSC-Test-S2-103.npz",
+      "dataset": "CT_TCIA-LCTSC",
+      "has_bbox": true,
+      "n_labels": 5,
+      "shape": [
+        118,
+        512,
+        512
+      ],
+      "n_voxels": 30932992
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_TCIA-LCTSC_LCTSC-Test-S3-204.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_TCIA-LCTSC_LCTSC-Test-S3-204.npz",
+      "dataset": "CT_TCIA-LCTSC",
+      "has_bbox": true,
+      "n_labels": 5,
+      "shape": [
+        155,
+        512,
+        512
+      ],
+      "n_voxels": 40632320
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_TCIA-LCTSC_LCTSC-Train-S1-002.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_TCIA-LCTSC_LCTSC-Train-S1-002.npz",
+      "dataset": "CT_TCIA-LCTSC",
+      "has_bbox": true,
+      "n_labels": 5,
+      "shape": [
+        120,
+        512,
+        512
+      ],
+      "n_voxels": 31457280
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_TCIA-LCTSC_LCTSC-Train-S3-007.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_TCIA-LCTSC_LCTSC-Train-S3-007.npz",
+      "dataset": "CT_TCIA-LCTSC",
+      "has_bbox": true,
+      "n_labels": 5,
+      "shape": [
+        123,
+        512,
+        512
+      ],
+      "n_voxels": 32243712
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_TCIA-LCTSC_LCTSC-Train-S1-004.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_TCIA-LCTSC_LCTSC-Train-S1-004.npz",
+      "dataset": "CT_TCIA-LCTSC",
+      "has_bbox": true,
+      "n_labels": 5,
+      "shape": [
+        122,
+        512,
+        512
+      ],
+      "n_voxels": 31981568
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_TotalSeg_cardiac_s0552.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_TotalSeg_cardiac_s0552.npz",
+      "dataset": "CT_TotalSeg",
+      "has_bbox": true,
+      "n_labels": 9,
+      "shape": [
+        91,
+        142,
+        118
+      ],
+      "n_voxels": 1524796
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_TotalSeg_muscles_s0821.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_TotalSeg_muscles_s0821.npz",
+      "dataset": "CT_TotalSeg",
+      "has_bbox": true,
+      "n_labels": 10,
+      "shape": [
+        244,
+        213,
+        213
+      ],
+      "n_voxels": 11070036
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_TotalSeg_muscles_s0339.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_TotalSeg_muscles_s0339.npz",
+      "dataset": "CT_TotalSeg",
+      "has_bbox": true,
+      "n_labels": 16,
+      "shape": [
+        281,
+        240,
+        240
+      ],
+      "n_voxels": 16185600
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_TotalSeg_muscles_s1315.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_TotalSeg_muscles_s1315.npz",
+      "dataset": "CT_TotalSeg",
+      "has_bbox": true,
+      "n_labels": 8,
+      "shape": [
+        58,
+        181,
+        181
+      ],
+      "n_voxels": 1900138
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_TotalSeg_organs_s0963.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_TotalSeg_organs_s0963.npz",
+      "dataset": "CT_TotalSeg",
+      "has_bbox": true,
+      "n_labels": 21,
+      "shape": [
+        362,
+        208,
+        208
+      ],
+      "n_voxels": 15661568
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_totalseg-vertebrae_s1292.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_totalseg-vertebrae_s1292.npz",
+      "dataset": "CT_totalseg-vertebrae",
+      "has_bbox": true,
+      "n_labels": 17,
+      "shape": [
+        270,
+        221,
+        221
+      ],
+      "n_voxels": 13187070
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_totalseg-vertebrae_s0441.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_totalseg-vertebrae_s0441.npz",
+      "dataset": "CT_totalseg-vertebrae",
+      "has_bbox": true,
+      "n_labels": 13,
+      "shape": [
+        269,
+        242,
+        242
+      ],
+      "n_voxels": 15753716
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_totalseg-vertebrae_s0204.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_totalseg-vertebrae_s0204.npz",
+      "dataset": "CT_totalseg-vertebrae",
+      "has_bbox": true,
+      "n_labels": 12,
+      "shape": [
+        277,
+        236,
+        290
+      ],
+      "n_voxels": 18957880
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_totalseg-vertebrae_s0429.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_totalseg-vertebrae_s0429.npz",
+      "dataset": "CT_totalseg-vertebrae",
+      "has_bbox": true,
+      "n_labels": 21,
+      "shape": [
+        396,
+        254,
+        254
+      ],
+      "n_voxels": 25548336
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/CT_totalseg-vertebrae_s0287.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/CT_totalseg-vertebrae_s0287.npz",
+      "dataset": "CT_totalseg-vertebrae",
+      "has_bbox": true,
+      "n_labels": 17,
+      "shape": [
+        366,
+        317,
+        317
+      ],
+      "n_voxels": 36778974
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_AMOSMR_amos_0598.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_AMOSMR_amos_0598.npz",
+      "dataset": "MR_AMOSMR",
+      "has_bbox": true,
+      "n_labels": 13,
+      "shape": [
+        250,
+        144,
+        260
+      ],
+      "n_voxels": 9360000
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_AMOSMR_amos_0559.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_AMOSMR_amos_0559.npz",
+      "dataset": "MR_AMOSMR",
+      "has_bbox": true,
+      "n_labels": 13,
+      "shape": [
+        269,
+        60,
+        320
+      ],
+      "n_voxels": 5164800
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_AMOSMR_amos_0530.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_AMOSMR_amos_0530.npz",
+      "dataset": "MR_AMOSMR",
+      "has_bbox": true,
+      "n_labels": 13,
+      "shape": [
+        64,
+        290,
+        320
+      ],
+      "n_voxels": 5939200
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_AMOSMR_amos_0595.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_AMOSMR_amos_0595.npz",
+      "dataset": "MR_AMOSMR",
+      "has_bbox": true,
+      "n_labels": 12,
+      "shape": [
+        72,
+        260,
+        320
+      ],
+      "n_voxels": 5990400
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_AMOSMR_amos_0592.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_AMOSMR_amos_0592.npz",
+      "dataset": "MR_AMOSMR",
+      "has_bbox": true,
+      "n_labels": 13,
+      "shape": [
+        451,
+        168,
+        512
+      ],
+      "n_voxels": 38793216
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_BraTS-T1c_bratsgli_0613.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_BraTS-T1c_bratsgli_0613.npz",
+      "dataset": "MR_BraTS-T1c",
+      "has_bbox": false,
+      "n_labels": 4,
+      "shape": [
+        60,
+        218,
+        182
+      ],
+      "n_voxels": 2380560
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_BraTS-T1c_bratsgli_0353.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_BraTS-T1c_bratsgli_0353.npz",
+      "dataset": "MR_BraTS-T1c",
+      "has_bbox": false,
+      "n_labels": 3,
+      "shape": [
+        95,
+        218,
+        182
+      ],
+      "n_voxels": 3769220
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_BraTS-T1c_bratsgli_1198.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_BraTS-T1c_bratsgli_1198.npz",
+      "dataset": "MR_BraTS-T1c",
+      "has_bbox": false,
+      "n_labels": 2,
+      "shape": [
+        40,
+        218,
+        182
+      ],
+      "n_voxels": 1587040
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_BraTS-T1c_bratsgli_1022.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_BraTS-T1c_bratsgli_1022.npz",
+      "dataset": "MR_BraTS-T1c",
+      "has_bbox": false,
+      "n_labels": 2,
+      "shape": [
+        47,
+        218,
+        182
+      ],
+      "n_voxels": 1864772
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_BraTS-T1c_bratsgli_0699.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_BraTS-T1c_bratsgli_0699.npz",
+      "dataset": "MR_BraTS-T1c",
+      "has_bbox": false,
+      "n_labels": 3,
+      "shape": [
+        44,
+        218,
+        182
+      ],
+      "n_voxels": 1745744
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_BraTS-T1n_bratsgli_0550.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_BraTS-T1n_bratsgli_0550.npz",
+      "dataset": "MR_BraTS-T1n",
+      "has_bbox": false,
+      "n_labels": 2,
+      "shape": [
+        97,
+        218,
+        182
+      ],
+      "n_voxels": 3848572
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_BraTS-T1n_bratsgli_0843.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_BraTS-T1n_bratsgli_0843.npz",
+      "dataset": "MR_BraTS-T1n",
+      "has_bbox": false,
+      "n_labels": 2,
+      "shape": [
+        49,
+        218,
+        182
+      ],
+      "n_voxels": 1944124
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_BraTS-T1n_bratsgli_0179.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_BraTS-T1n_bratsgli_0179.npz",
+      "dataset": "MR_BraTS-T1n",
+      "has_bbox": false,
+      "n_labels": 3,
+      "shape": [
+        90,
+        218,
+        182
+      ],
+      "n_voxels": 3570840
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_BraTS-T1n_bratsgli_0561.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_BraTS-T1n_bratsgli_0561.npz",
+      "dataset": "MR_BraTS-T1n",
+      "has_bbox": false,
+      "n_labels": 3,
+      "shape": [
+        60,
+        218,
+        182
+      ],
+      "n_voxels": 2380560
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_BraTS-T1n_bratsgli_0138.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_BraTS-T1n_bratsgli_0138.npz",
+      "dataset": "MR_BraTS-T1n",
+      "has_bbox": false,
+      "n_labels": 3,
+      "shape": [
+        98,
+        218,
+        182
+      ],
+      "n_voxels": 3888248
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_BraTS-T2f_bratsgli_0757.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_BraTS-T2f_bratsgli_0757.npz",
+      "dataset": "MR_BraTS-T2f",
+      "has_bbox": false,
+      "n_labels": 2,
+      "shape": [
+        89,
+        218,
+        182
+      ],
+      "n_voxels": 3531164
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_BraTS-T2f_bratsgli_0989.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_BraTS-T2f_bratsgli_0989.npz",
+      "dataset": "MR_BraTS-T2f",
+      "has_bbox": false,
+      "n_labels": 4,
+      "shape": [
+        97,
+        218,
+        182
+      ],
+      "n_voxels": 3848572
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_BraTS-T2f_bratsgli_0626.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_BraTS-T2f_bratsgli_0626.npz",
+      "dataset": "MR_BraTS-T2f",
+      "has_bbox": false,
+      "n_labels": 3,
+      "shape": [
+        61,
+        218,
+        182
+      ],
+      "n_voxels": 2420236
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_BraTS-T2f_bratsgli_0154.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_BraTS-T2f_bratsgli_0154.npz",
+      "dataset": "MR_BraTS-T2f",
+      "has_bbox": false,
+      "n_labels": 4,
+      "shape": [
+        79,
+        218,
+        182
+      ],
+      "n_voxels": 3134404
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_BraTS-T2f_bratsgli_0509.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_BraTS-T2f_bratsgli_0509.npz",
+      "dataset": "MR_BraTS-T2f",
+      "has_bbox": false,
+      "n_labels": 2,
+      "shape": [
+        63,
+        218,
+        182
+      ],
+      "n_voxels": 2499588
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_BraTS-T2w_bratsgli_0822.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_BraTS-T2w_bratsgli_0822.npz",
+      "dataset": "MR_BraTS-T2w",
+      "has_bbox": false,
+      "n_labels": 3,
+      "shape": [
+        50,
+        218,
+        182
+      ],
+      "n_voxels": 1983800
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_BraTS-T2w_bratsgli_0649.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_BraTS-T2w_bratsgli_0649.npz",
+      "dataset": "MR_BraTS-T2w",
+      "has_bbox": false,
+      "n_labels": 4,
+      "shape": [
+        90,
+        218,
+        182
+      ],
+      "n_voxels": 3570840
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_BraTS-T2w_bratsgli_1214.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_BraTS-T2w_bratsgli_1214.npz",
+      "dataset": "MR_BraTS-T2w",
+      "has_bbox": false,
+      "n_labels": 3,
+      "shape": [
+        38,
+        218,
+        182
+      ],
+      "n_voxels": 1507688
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_BraTS-T2w_bratsgli_1026.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_BraTS-T2w_bratsgli_1026.npz",
+      "dataset": "MR_BraTS-T2w",
+      "has_bbox": false,
+      "n_labels": 2,
+      "shape": [
+        23,
+        218,
+        182
+      ],
+      "n_voxels": 912548
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_BraTS-T2w_bratsgli_1144.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_BraTS-T2w_bratsgli_1144.npz",
+      "dataset": "MR_BraTS-T2w",
+      "has_bbox": false,
+      "n_labels": 4,
+      "shape": [
+        88,
+        218,
+        182
+      ],
+      "n_voxels": 3491488
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_CHAOS-T1_20_T1DUAL.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_CHAOS-T1_20_T1DUAL.npz",
+      "dataset": "MR_CHAOS-T1",
+      "has_bbox": true,
+      "n_labels": 4,
+      "shape": [
+        20,
+        288,
+        288
+      ],
+      "n_voxels": 1658880
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_CHAOS-T1_33_T1DUAL.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_CHAOS-T1_33_T1DUAL.npz",
+      "dataset": "MR_CHAOS-T1",
+      "has_bbox": true,
+      "n_labels": 4,
+      "shape": [
+        23,
+        256,
+        256
+      ],
+      "n_voxels": 1507328
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_CHAOS-T2_34_T2SPIR.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_CHAOS-T2_34_T2SPIR.npz",
+      "dataset": "MR_CHAOS-T2",
+      "has_bbox": true,
+      "n_labels": 4,
+      "shape": [
+        24,
+        256,
+        256
+      ],
+      "n_voxels": 1572864
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_CHAOS-T2_8_T2SPIR.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_CHAOS-T2_8_T2SPIR.npz",
+      "dataset": "MR_CHAOS-T2",
+      "has_bbox": true,
+      "n_labels": 4,
+      "shape": [
+        28,
+        288,
+        288
+      ],
+      "n_voxels": 2322432
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_Head_HNTSMRG24_77_midRT_T2.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_Head_HNTSMRG24_77_midRT_T2.npz",
+      "dataset": "MR_Head",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        18,
+        528,
+        528
+      ],
+      "n_voxels": 5018112
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_Head_HNTSMRG24_27_preRT_T2.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_Head_HNTSMRG24_27_preRT_T2.npz",
+      "dataset": "MR_Head",
+      "has_bbox": true,
+      "n_labels": 3,
+      "shape": [
+        45,
+        512,
+        512
+      ],
+      "n_voxels": 11796480
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_Head_HNTSMRG24_153_midRT_T2.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_Head_HNTSMRG24_153_midRT_T2.npz",
+      "dataset": "MR_Head",
+      "has_bbox": true,
+      "n_labels": 2,
+      "shape": [
+        33,
+        512,
+        512
+      ],
+      "n_voxels": 8650752
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_Head_HNTSMRG24_37_preRT_T2.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_Head_HNTSMRG24_37_preRT_T2.npz",
+      "dataset": "MR_Head",
+      "has_bbox": true,
+      "n_labels": 2,
+      "shape": [
+        31,
+        512,
+        512
+      ],
+      "n_voxels": 8126464
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_Head_HNTSMRG24_195_midRT_T2.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_Head_HNTSMRG24_195_midRT_T2.npz",
+      "dataset": "MR_Head",
+      "has_bbox": true,
+      "n_labels": 4,
+      "shape": [
+        36,
+        512,
+        512
+      ],
+      "n_voxels": 9437184
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_Heart_la_014.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_Heart_la_014.npz",
+      "dataset": "MR_Heart",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        66,
+        320,
+        320
+      ],
+      "n_voxels": 6758400
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_Heart_la_009.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_Heart_la_009.npz",
+      "dataset": "MR_Heart",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        78,
+        320,
+        320
+      ],
+      "n_voxels": 7987200
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_ISLES2022_ADC_sub-strokecase0168.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_ISLES2022_ADC_sub-strokecase0168.npz",
+      "dataset": "MR_ISLES2022",
+      "has_bbox": true,
+      "n_labels": 7,
+      "shape": [
+        29,
+        112,
+        112
+      ],
+      "n_voxels": 363776
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_ISLES2022_ADC_sub-strokecase0085.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_ISLES2022_ADC_sub-strokecase0085.npz",
+      "dataset": "MR_ISLES2022",
+      "has_bbox": true,
+      "n_labels": 3,
+      "shape": [
+        26,
+        112,
+        112
+      ],
+      "n_voxels": 326144
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_ISLES2022_DWI_sub-strokecase0086.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_ISLES2022_DWI_sub-strokecase0086.npz",
+      "dataset": "MR_ISLES2022",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        22,
+        112,
+        112
+      ],
+      "n_voxels": 275968
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_ISLES2022_DWI_sub-strokecase0081.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_ISLES2022_DWI_sub-strokecase0081.npz",
+      "dataset": "MR_ISLES2022",
+      "has_bbox": true,
+      "n_labels": 2,
+      "shape": [
+        40,
+        112,
+        112
+      ],
+      "n_voxels": 501760
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_ISLES2022_ADC_sub-strokecase0044.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_ISLES2022_ADC_sub-strokecase0044.npz",
+      "dataset": "MR_ISLES2022",
+      "has_bbox": true,
+      "n_labels": 3,
+      "shape": [
+        7,
+        112,
+        112
+      ],
+      "n_voxels": 87808
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_ProstateADC_ADC-ProstateX-0323.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_ProstateADC_ADC-ProstateX-0323.npz",
+      "dataset": "MR_ProstateADC",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        13,
+        128,
+        84
+      ],
+      "n_voxels": 139776
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_ProstateADC_ADC-ProstateX-0002.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_ProstateADC_ADC-ProstateX-0002.npz",
+      "dataset": "MR_ProstateADC",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        9,
+        128,
+        84
+      ],
+      "n_voxels": 96768
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_ProstateADC_ADC-ProstateX-0340.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_ProstateADC_ADC-ProstateX-0340.npz",
+      "dataset": "MR_ProstateADC",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        17,
+        128,
+        84
+      ],
+      "n_voxels": 182784
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_ProstateADC_ADC-ProstateX-0021.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_ProstateADC_ADC-ProstateX-0021.npz",
+      "dataset": "MR_ProstateADC",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        15,
+        128,
+        84
+      ],
+      "n_voxels": 161280
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_ProstateADC_ADC-ProstateX-0038.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_ProstateADC_ADC-ProstateX-0038.npz",
+      "dataset": "MR_ProstateADC",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        11,
+        128,
+        84
+      ],
+      "n_voxels": 118272
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_ProstateT2_T2-ProstateX-0040.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_ProstateT2_T2-ProstateX-0040.npz",
+      "dataset": "MR_ProstateT2",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        13,
+        384,
+        384
+      ],
+      "n_voxels": 1916928
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_ProstateT2_T2-ProstateX-0214_5.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_ProstateT2_T2-ProstateX-0214_5.npz",
+      "dataset": "MR_ProstateT2",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        10,
+        384,
+        384
+      ],
+      "n_voxels": 1474560
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_ProstateT2_T2-MSD-prostate_26.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_ProstateT2_T2-MSD-prostate_26.npz",
+      "dataset": "MR_ProstateT2",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        16,
+        320,
+        320
+      ],
+      "n_voxels": 1638400
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_ProstateT2_T2-ProstateX-0189.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_ProstateT2_T2-ProstateX-0189.npz",
+      "dataset": "MR_ProstateT2",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        12,
+        384,
+        384
+      ],
+      "n_voxels": 1769472
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_ProstateT2_T2-ProstateX-0230_4.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_ProstateT2_T2-ProstateX-0230_4.npz",
+      "dataset": "MR_ProstateT2",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        13,
+        320,
+        320
+      ],
+      "n_voxels": 1331200
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_QIN-PROSTATE-Lesion_PCAMPMRI-00012_1_2_MR.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_QIN-PROSTATE-Lesion_PCAMPMRI-00012_1_2_MR.npz",
+      "dataset": "MR_QIN-PROSTATE-Lesion",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        3,
+        512,
+        512
+      ],
+      "n_voxels": 786432
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_QIN-PROSTATE-Lesion_PCAMPMRI-00010_0_0_MR.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_QIN-PROSTATE-Lesion_PCAMPMRI-00010_0_0_MR.npz",
+      "dataset": "MR_QIN-PROSTATE-Lesion",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        3,
+        512,
+        512
+      ],
+      "n_voxels": 786432
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_QIN-PROSTATE-Lesion_PCAMPMRI-00003_0_1_MR.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_QIN-PROSTATE-Lesion_PCAMPMRI-00003_0_1_MR.npz",
+      "dataset": "MR_QIN-PROSTATE-Lesion",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        2,
+        256,
+        256
+      ],
+      "n_voxels": 131072
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_QIN-PROSTATE-Lesion_PCAMPMRI-00013_1_0_MR.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_QIN-PROSTATE-Lesion_PCAMPMRI-00013_1_0_MR.npz",
+      "dataset": "MR_QIN-PROSTATE-Lesion",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        3,
+        256,
+        256
+      ],
+      "n_voxels": 196608
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_QIN-PROSTATE-Lesion_PCAMPMRI-00012_1_0_MR.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_QIN-PROSTATE-Lesion_PCAMPMRI-00012_1_0_MR.npz",
+      "dataset": "MR_QIN-PROSTATE-Lesion",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        2,
+        256,
+        256
+      ],
+      "n_voxels": 131072
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_QIN-PROSTATE-Prostate_PCAMPMRI-00011_1_2_MR.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_QIN-PROSTATE-Prostate_PCAMPMRI-00011_1_2_MR.npz",
+      "dataset": "MR_QIN-PROSTATE-Prostate",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        7,
+        256,
+        256
+      ],
+      "n_voxels": 458752
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_QIN-PROSTATE-Prostate_PCAMPMRI-00014_0_2_MR.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_QIN-PROSTATE-Prostate_PCAMPMRI-00014_0_2_MR.npz",
+      "dataset": "MR_QIN-PROSTATE-Prostate",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        8,
+        256,
+        256
+      ],
+      "n_voxels": 524288
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_QIN-PROSTATE-Prostate_PCAMPMRI-00012_1_1_MR.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_QIN-PROSTATE-Prostate_PCAMPMRI-00012_1_1_MR.npz",
+      "dataset": "MR_QIN-PROSTATE-Prostate",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        15,
+        512,
+        512
+      ],
+      "n_voxels": 3932160
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_QIN-PROSTATE-Prostate_PCAMPMRI-00010_1_1_MR.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_QIN-PROSTATE-Prostate_PCAMPMRI-00010_1_1_MR.npz",
+      "dataset": "MR_QIN-PROSTATE-Prostate",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        9,
+        256,
+        256
+      ],
+      "n_voxels": 589824
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_QIN-PROSTATE-Prostate_PCAMPMRI-00001_0_2_MR.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_QIN-PROSTATE-Prostate_PCAMPMRI-00001_0_2_MR.npz",
+      "dataset": "MR_QIN-PROSTATE-Prostate",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        11,
+        256,
+        256
+      ],
+      "n_voxels": 720896
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_Spider_241_t2_SPACE_ivd.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_Spider_241_t2_SPACE_ivd.npz",
+      "dataset": "MR_Spider",
+      "has_bbox": true,
+      "n_labels": 9,
+      "shape": [
+        76,
+        640,
+        512
+      ],
+      "n_voxels": 24903680
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_Spider_62_t1_spi.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_Spider_62_t1_spi.npz",
+      "dataset": "MR_Spider",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        7,
+        320,
+        320
+      ],
+      "n_voxels": 716800
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_Spider_175_t2_vet.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_Spider_175_t2_vet.npz",
+      "dataset": "MR_Spider",
+      "has_bbox": true,
+      "n_labels": 6,
+      "shape": [
+        23,
+        413,
+        448
+      ],
+      "n_voxels": 4255552
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_Spider_71_t2_ivd.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_Spider_71_t2_ivd.npz",
+      "dataset": "MR_Spider",
+      "has_bbox": true,
+      "n_labels": 8,
+      "shape": [
+        11,
+        384,
+        384
+      ],
+      "n_voxels": 1622016
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_Spider_100_t1_vet.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_Spider_100_t1_vet.npz",
+      "dataset": "MR_Spider",
+      "has_bbox": true,
+      "n_labels": 8,
+      "shape": [
+        17,
+        797,
+        492
+      ],
+      "n_voxels": 6666108
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_WMH_FLAIR_Utrecht_9.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_WMH_FLAIR_Utrecht_9.npz",
+      "dataset": "MR_WMH",
+      "has_bbox": true,
+      "n_labels": 15,
+      "shape": [
+        33,
+        240,
+        240
+      ],
+      "n_voxels": 1900800
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_WMH_T1_Utrecht_40.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_WMH_T1_Utrecht_40.npz",
+      "dataset": "MR_WMH",
+      "has_bbox": true,
+      "n_labels": 23,
+      "shape": [
+        20,
+        240,
+        240
+      ],
+      "n_voxels": 1152000
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_WMH_FLAIR_Utrecht_2.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_WMH_FLAIR_Utrecht_2.npz",
+      "dataset": "MR_WMH",
+      "has_bbox": true,
+      "n_labels": 42,
+      "shape": [
+        26,
+        240,
+        240
+      ],
+      "n_voxels": 1497600
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_WMH_FLAIR_Singapore_56.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_WMH_FLAIR_Singapore_56.npz",
+      "dataset": "MR_WMH",
+      "has_bbox": true,
+      "n_labels": 9,
+      "shape": [
+        16,
+        256,
+        232
+      ],
+      "n_voxels": 950272
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_WMH_T1_Amsterdam_GE3T_109.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_WMH_T1_Amsterdam_GE3T_109.npz",
+      "dataset": "MR_WMH",
+      "has_bbox": true,
+      "n_labels": 10,
+      "shape": [
+        9,
+        256,
+        132
+      ],
+      "n_voxels": 304128
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_crossmoda_crossmoda2023_ukm_3_ceT1.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_crossmoda_crossmoda2023_ukm_3_ceT1.npz",
+      "dataset": "MR_crossmoda",
+      "has_bbox": true,
+      "n_labels": 4,
+      "shape": [
+        15,
+        512,
+        512
+      ],
+      "n_voxels": 3932160
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_crossmoda_crossmoda2023_ukm_14_ceT1.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_crossmoda_crossmoda2023_ukm_14_ceT1.npz",
+      "dataset": "MR_crossmoda",
+      "has_bbox": true,
+      "n_labels": 4,
+      "shape": [
+        12,
+        288,
+        288
+      ],
+      "n_voxels": 995328
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_crossmoda_crossmoda2023_ukm_30_ceT1.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_crossmoda_crossmoda2023_ukm_30_ceT1.npz",
+      "dataset": "MR_crossmoda",
+      "has_bbox": true,
+      "n_labels": 4,
+      "shape": [
+        10,
+        320,
+        320
+      ],
+      "n_voxels": 1024000
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_crossmoda_crossmoda2023_etz_71_ceT1.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_crossmoda_crossmoda2023_etz_71_ceT1.npz",
+      "dataset": "MR_crossmoda",
+      "has_bbox": true,
+      "n_labels": 3,
+      "shape": [
+        6,
+        256,
+        256
+      ],
+      "n_voxels": 393216
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_crossmoda_crossmoda2023_etz_53_ceT1.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_crossmoda_crossmoda2023_etz_53_ceT1.npz",
+      "dataset": "MR_crossmoda",
+      "has_bbox": true,
+      "n_labels": 4,
+      "shape": [
+        14,
+        256,
+        256
+      ],
+      "n_voxels": 917504
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_heart-ACDC_ACDC_patient070_frame01_myo.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_heart-ACDC_ACDC_patient070_frame01_myo.npz",
+      "dataset": "MR_heart-ACDC",
+      "has_bbox": false,
+      "n_labels": 1,
+      "shape": [
+        6,
+        256,
+        208
+      ],
+      "n_voxels": 319488
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_heart-ACDC_ACDC_patient119_frame09_lvrv.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_heart-ACDC_ACDC_patient119_frame09_lvrv.npz",
+      "dataset": "MR_heart-ACDC",
+      "has_bbox": true,
+      "n_labels": 2,
+      "shape": [
+        13,
+        208,
+        174
+      ],
+      "n_voxels": 470496
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_heart-ACDC_ACDC_patient027_frame01_lvrv.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_heart-ACDC_ACDC_patient027_frame01_lvrv.npz",
+      "dataset": "MR_heart-ACDC",
+      "has_bbox": true,
+      "n_labels": 2,
+      "shape": [
+        9,
+        256,
+        216
+      ],
+      "n_voxels": 497664
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_heart-ACDC_ACDC_patient096_frame08_lvrv.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_heart-ACDC_ACDC_patient096_frame08_lvrv.npz",
+      "dataset": "MR_heart-ACDC",
+      "has_bbox": true,
+      "n_labels": 2,
+      "shape": [
+        16,
+        208,
+        174
+      ],
+      "n_voxels": 579072
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_heart-ACDC_ACDC_patient119_frame09_myo.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_heart-ACDC_ACDC_patient119_frame09_myo.npz",
+      "dataset": "MR_heart-ACDC",
+      "has_bbox": false,
+      "n_labels": 1,
+      "shape": [
+        13,
+        208,
+        174
+      ],
+      "n_voxels": 470496
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_totalseg_mr_s0166.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_totalseg_mr_s0166.npz",
+      "dataset": "MR_totalseg",
+      "has_bbox": true,
+      "n_labels": 32,
+      "shape": [
+        72,
+        250,
+        320
+      ],
+      "n_voxels": 5760000
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_totalseg_mr_s0001.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_totalseg_mr_s0001.npz",
+      "dataset": "MR_totalseg",
+      "has_bbox": true,
+      "n_labels": 31,
+      "shape": [
+        76,
+        512,
+        512
+      ],
+      "n_voxels": 19922944
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_totalseg_mr_s0204.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_totalseg_mr_s0204.npz",
+      "dataset": "MR_totalseg",
+      "has_bbox": true,
+      "n_labels": 27,
+      "shape": [
+        72,
+        260,
+        320
+      ],
+      "n_voxels": 5990400
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_totalseg_mr_s0088.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_totalseg_mr_s0088.npz",
+      "dataset": "MR_totalseg",
+      "has_bbox": true,
+      "n_labels": 5,
+      "shape": [
+        762,
+        768,
+        15
+      ],
+      "n_voxels": 8778240
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/MR_totalseg_mr_s0165.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/MR_totalseg_mr_s0165.npz",
+      "dataset": "MR_totalseg",
+      "has_bbox": true,
+      "n_labels": 2,
+      "shape": [
+        18,
+        448,
+        448
+      ],
+      "n_voxels": 3612672
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/Microscopy_SELMA3D_patchvolume_ADplaques_019.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/Microscopy_SELMA3D_patchvolume_ADplaques_019.npz",
+      "dataset": "Microscopy_SELMA3D",
+      "has_bbox": true,
+      "n_labels": 1,
+      "shape": [
+        21,
+        300,
+        300
+      ],
+      "n_voxels": 1890000
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/Microscopy_SELMA3D_patchvolume_cfos_009_2_1_1.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/Microscopy_SELMA3D_patchvolume_cfos_009_2_1_1.npz",
+      "dataset": "Microscopy_SELMA3D",
+      "has_bbox": true,
+      "n_labels": 2,
+      "shape": [
+        25,
+        50,
+        50
+      ],
+      "n_voxels": 62500
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/Microscopy_SELMA3D_patchvolume_vessel_006_2_1_1.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/Microscopy_SELMA3D_patchvolume_vessel_006_2_1_1.npz",
+      "dataset": "Microscopy_SELMA3D",
+      "has_bbox": true,
+      "n_labels": 30,
+      "shape": [
+        12,
+        250,
+        250
+      ],
+      "n_voxels": 750000
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/Microscopy_SELMA3D_patchvolume_vessel_006_1_0_0.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/Microscopy_SELMA3D_patchvolume_vessel_006_1_0_0.npz",
+      "dataset": "Microscopy_SELMA3D",
+      "has_bbox": true,
+      "n_labels": 34,
+      "shape": [
+        12,
+        250,
+        250
+      ],
+      "n_voxels": 750000
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/Microscopy_SELMA3D_patchvolume_nuclei_004_2_1_1.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/Microscopy_SELMA3D_patchvolume_nuclei_004_2_1_1.npz",
+      "dataset": "Microscopy_SELMA3D",
+      "has_bbox": true,
+      "n_labels": 77,
+      "shape": [
+        33,
+        100,
+        100
+      ],
+      "n_voxels": 330000
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/PET_autoPET_fdg_25707f94a2_07-03-2003-NA-PET-CT Ganzkoerper  primaer mit KM-46163.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/PET_autoPET_fdg_25707f94a2_07-03-2003-NA-PET-CT Ganzkoerper  primaer mit KM-46163.npz",
+      "dataset": "PET_autoPET",
+      "has_bbox": true,
+      "n_labels": 16,
+      "shape": [
+        217,
+        400,
+        400
+      ],
+      "n_voxels": 34720000
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/PET_autoPET_fdg_aea7906fd2_12-16-2001-NA-PET-CT Ganzkoerper  primaer mit KM-08307.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/PET_autoPET_fdg_aea7906fd2_12-16-2001-NA-PET-CT Ganzkoerper  primaer mit KM-08307.npz",
+      "dataset": "PET_autoPET",
+      "has_bbox": true,
+      "n_labels": 15,
+      "shape": [
+        155,
+        400,
+        400
+      ],
+      "n_voxels": 24800000
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/PET_autoPET_fdg_3049d4f1a4_02-24-2002-NA-PET-CT Ganzkoerper  primaer mit KM-94895.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/PET_autoPET_fdg_3049d4f1a4_02-24-2002-NA-PET-CT Ganzkoerper  primaer mit KM-94895.npz",
+      "dataset": "PET_autoPET",
+      "has_bbox": true,
+      "n_labels": 3,
+      "shape": [
+        67,
+        400,
+        400
+      ],
+      "n_voxels": 10720000
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/PET_autoPET_psma_ba6433757dfc9d21_2021-06-04.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/PET_autoPET_psma_ba6433757dfc9d21_2021-06-04.npz",
+      "dataset": "PET_autoPET",
+      "has_bbox": true,
+      "n_labels": 5,
+      "shape": [
+        316,
+        200,
+        200
+      ],
+      "n_voxels": 12640000
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/PET_autoPET_fdg_275fb00a66_05-04-2001-NA-Unspecified CT ABDOMEN-27095.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/PET_autoPET_fdg_275fb00a66_05-04-2001-NA-Unspecified CT ABDOMEN-27095.npz",
+      "dataset": "PET_autoPET",
+      "has_bbox": true,
+      "n_labels": 9,
+      "shape": [
+        80,
+        400,
+        400
+      ],
+      "n_voxels": 12800000
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/US_Cardiac_patient0275_4CH_half_sequence.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/US_Cardiac_patient0275_4CH_half_sequence.npz",
+      "dataset": "US_Cardiac",
+      "has_bbox": true,
+      "n_labels": 3,
+      "shape": [
+        17,
+        422,
+        512
+      ],
+      "n_voxels": 3673088
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/US_Cardiac_patient0243_2CH_half_sequence.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/US_Cardiac_patient0243_2CH_half_sequence.npz",
+      "dataset": "US_Cardiac",
+      "has_bbox": true,
+      "n_labels": 3,
+      "shape": [
+        19,
+        519,
+        630
+      ],
+      "n_voxels": 6212430
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/US_Cardiac_patient0276_2CH_half_sequence.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/US_Cardiac_patient0276_2CH_half_sequence.npz",
+      "dataset": "US_Cardiac",
+      "has_bbox": true,
+      "n_labels": 3,
+      "shape": [
+        19,
+        422,
+        595
+      ],
+      "n_voxels": 4770710
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/US_Cardiac_patient0197_2CH_half_sequence.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/US_Cardiac_patient0197_2CH_half_sequence.npz",
+      "dataset": "US_Cardiac",
+      "has_bbox": true,
+      "n_labels": 3,
+      "shape": [
+        16,
+        454,
+        551
+      ],
+      "n_voxels": 4002464
+    },
+    {
+      "path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_npz/US_Cardiac_patient0261_2CH_half_sequence.npz",
+      "gt_path": "/media/ssd/jz/CVPR-BiomedSegFM/3D_val_gt/3D_val_gt_interactive/US_Cardiac_patient0261_2CH_half_sequence.npz",
+      "dataset": "US_Cardiac",
+      "has_bbox": true,
+      "n_labels": 3,
+      "shape": [
+        21,
+        552,
+        669
+      ],
+      "n_voxels": 7755048
+    }
+  ]
+}

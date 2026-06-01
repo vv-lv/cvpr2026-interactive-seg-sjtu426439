@@ -1,4 +1,4 @@
-# Bottleneck Attention, Maxprob Assembly, and Round-Aware TTA for Interactive 3D Medical Segmentation
+# Cross-Object Decoder Attention, Maxprob Assembly, and Agreement-Gated TTA for Interactive 3D Biomedical Segmentation
 
 **CVPR 2026 Workshop on Foundation Models for Medical Vision — Interactive Track**
 
@@ -8,8 +8,8 @@ Team: sjtu426439
 
 Our approach builds on [nnInteractive](https://github.com/MIC-DKFZ/nnInteractive) with three key innovations:
 
-### 1. Cross-Object Bottleneck Attention
-A lightweight attention module injected at the U-Net bottleneck that enables cross-object context sharing for click-only (no bounding box) multi-target cases. The module learns to disambiguate overlapping targets by attending to all objects' click positions and types simultaneously.
+### 1. Cross-Object Decoder Attention
+A lightweight attention module injected at the first decoder stage (24³ resolution) that enables cross-object context sharing for click-only (no bounding box) multi-target cases. The module learns to disambiguate overlapping targets by attending to all objects' click positions and types simultaneously.
 
 - Trained on a balanced 310-case subset (competitor/non-competitor 1:1)
 - Bypassed for bounding-box cases to avoid distribution shift
@@ -46,13 +46,14 @@ NSD improvement (+0.073) is 1.5x larger than DSC improvement (+0.048), indicatin
 ├── docker/                  # Docker submission files
 │   ├── predict.py           # Main inference script (maxprob + v9 + TTA)
 │   ├── predict.sh           # Docker entrypoint
-│   ├── attention_inference.py  # Bottleneck attention integration
+│   ├── attention_inference.py  # Cross-object decoder attention integration
 │   ├── Dockerfile           # Docker build file
 │   ├── build_docker.sh      # Build script
 │   └── prepare_jit_model.py # JIT model tracing for faster loading
 ├── training/                # Training code
 │   ├── trainer.py           # Main training loop
-│   ├── bottleneck_attention.py  # V9 bottleneck attention module
+│   ├── bottleneck_attention.py  # Attention primitives + early 6³ variant
+│   ├── decoder_attention.py     # V9 decoder-stage-1 (24³) attention (deployed)
 │   ├── dataset.py           # Data loading and interaction simulation
 │   ├── lora.py              # LoRA bypass utilities
 │   └── ...
@@ -77,6 +78,8 @@ NSD improvement (+0.073) is 1.5x larger than DSC improvement (+0.048), indicatin
 
 ## Docker Submission
 
+**Prebuilt image (with trained weights):** [Download from Google Drive](https://drive.google.com/drive/folders/1TEcBE359PwrWiwHO-Pfth4GLrlcoaDwl?usp=drive_link) — load it with `docker load` to reproduce the official results directly, without building or retraining.
+
 Build and export:
 ```bash
 cd docker
@@ -94,7 +97,7 @@ docker container run --gpus "device=0" -m 32G --name sjtu439426 --rm \
 
 ## Training
 
-### Bottleneck Attention (v9)
+### Decoder Attention (v9)
 ```bash
 # 1. Generate balanced training split
 python scripts/build_v9_train_split.py

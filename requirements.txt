@@ -1,0 +1,10 @@
+# Indicative dependencies. The Docker image (see README -> Docker Submission) is the
+# canonical, exact environment used for the official evaluation.
+torch>=2.6
+nnunetv2>=2.6,<2.7
+nninteractive>=1.1,<1.2
+connected-components-3d
+scikit-image
+scipy
+pandas
+numpy
